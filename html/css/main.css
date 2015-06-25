@@ -1,3 +1,4 @@
 .section-header { height: 398px; background-size: cover; background-repeat: no-repeat; }
-.section-title { text-align: center; padding: 65px 53px; color: #3f3f42; background-color: #e0dd00; }
+.section-title { text-align: center; padding: 65px 53px; color: #3f3f42; background-color: #e0dd00; line-height: 40px; }
 .section-title h2 { text-transform: uppercase; }
+.section-title p { font-size: 24px; }
