@@ -5,7 +5,7 @@ footer {min-height: 536px; background:#3f3f42;color: #fff;}
 footer p {font-family: Avenir;font-size: 18px; line-height: 25px;}
 footer p a{text-decoration: none;}
 footer p strong {color:#d60170;font-size: 20px;}
-footer h4 {margin-bottom: 25px;}
+footer h5 {margin-bottom: 25px;}
 
 .footer-top {padding:50px 0;border-bottom: 2px dotted #fff;}
 .footer-menu {margin-bottom: 100px; margin-top: 43px}
@@ -31,13 +31,31 @@ footer h4 {margin-bottom: 25px;}
 
 @media (max-width : 800px) {
 
+footer {min-height: auto;}
+footer .container {padding:0 20px;}
+footer .complay-logo .box {padding-right: 25px;}
+footer p {font-size: 14px; line-height: 19px;}
+footer p strong {font-size: 15px;}
+footer h5 {margin-bottom: 20px;}
 
-
+.footer-menu {margin-bottom: 60px;margin-top: 30px;}
+.footer-menu li {margin-bottom: 2px;}
+.footer-menu li a {font-size: 14px;}
+.footer-logo {margin-bottom: 35px;}
+.footer-top {margin:35px 0px 20px;}
+.footer-logo img {width: 50%;}
+.footer-block-1 {
+    margin: 0 0 20px;
+}
 
 
 }
 
 @media (max-width : 640px) {
+
+    .footer-menu, .footer-logo, footer h5 {display: none;} 
+    .block-6 {width: 100%;
+}
 
 } 
 
