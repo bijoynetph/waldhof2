@@ -2,4 +2,30 @@
 	font-family: 'Calibri-Bold';
 	background-color: #3f3f42;
 	height: 41px;
+	color: #e0dd00;
+}
+.topSec a{
+	color: #e0dd00;
+	text-decoration: none;
+}
+.language a {
+	display: inline-block;
+	line-height: 41px;
+}
+.address li {
+	float: left;
+	list-style: none;
+	line-height: 40px;
+	margin-right: 20px;
+}
+.address li.phone{
+	background: url(../images/phone.png) no-repeat 0 5px;
+	padding-left: 24px;
+}
+.address li.mail{
+	background: url(../images/mail.png) no-repeat 0 10px;
+	padding-left: 35px;
+}
+.address li.last {
+	margin-right: 0;
 }
