@@ -5,7 +5,7 @@ footer {min-height: 536px; background:#3f3f42;color: #fff;}
 footer p {font-family: Avenir;font-size: 18px; line-height: 25px;}
 footer p a{text-decoration: none;}
 footer p strong {color:#d60170;font-size: 20px;}
-footer h4 {margin-bottom: 25px;}
+footer h5 {margin-bottom: 25px;}
 
 .footer-top {padding:50px 0;border-bottom: 2px dotted #fff;}
 .footer-menu {margin-bottom: 100px; margin-top: 43px}
@@ -31,8 +31,13 @@ footer h4 {margin-bottom: 25px;}
 
 @media (max-width : 800px) {
 
-
-
+footer p {font-size: 14px; line-height: 19px;}
+.footer-menu {margin-bottom: 60px;}
+.footer-menu li {margin-bottom: 2px;}
+.footer-menu li a {font-size: 14px;}
+footer p strong {font-size: 15px;}
+footer h5 {margin-bottom: 20px;}
+.footer-logo {margin-bottom: 35px;}
 
 
 }
