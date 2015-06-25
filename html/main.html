@@ -13,6 +13,7 @@
         
         <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/init.js"></script>
         <script type="text/javascript">
             $(document).ready(function() {
                 // Even Odd class for section title
@@ -27,8 +28,8 @@
                 });
                 
                 // Even Odd class for section content
-                $ ('.section-toggle .section-content > li:even').addClass ('even');
-                $ ('.section-toggle .section-content > li:odd').addClass ('odd');
+                $ ('.section-toggle .section-content li:even').addClass ('even');
+                $ ('.section-toggle .section-content li:odd').addClass ('odd');
             });
         </script>
     </head>
@@ -36,7 +37,7 @@
     <body>
         <!-- Header full width image -->
         <div class="full-container">
-            <img src="images/header-banner.jpg" alt="" />
+            <img class="img-responsive" src="images/header-banner.jpg" alt="" />
         </div>
         <!-- /Header full width image -->
         
@@ -60,28 +61,66 @@
                 </span>
             </div>
             <div class="section-content">
-                <ul>
-                    <li>
-                        <div class="box block-6 img-wrap"><img src="images/bkg-section-content-one.jpg" alt="" /></div>
-                        <div class="box block-6 cont-wrap">
-                            <h4>UNSERE INKLUSIVLEISTUNGEN</h4>
-                            <ul>
-                                <li>Schlemmerfrühstücksbuffet, von 07.30 bis 10.00 Uhr</li>
-                                <li>Frühstücksservice für Langschläfer bis 11.00 Uhr</li>
-                                <li>Von 14.00 bis 16.30 Uhr Buffet mit hausgemachten<br />Kuchen, Obst, Salaten, Suppe und pikanten Snacks</li>
-                                <li>Ihr Lieblingsmenü am Abend: Wählen Sie nach Lust und Laune<br />unter verschiedenen Fünf-Gang-Gourmet-Menüs</li>
-                                <li>Gluten- und laktosefreie sowie Diätküche auf Anfrage</li>
-                                <li>1 x wöchentlich Candle-Light-Galadiner  mit Aperitif</li>
-                                <li>Täglich buntes Salat- und Käsebuffet, Dessert- und<br />Vorspeisenbuffets</li>
-                                <li>Fachkundiger Weinservice</li>
-                                <li>WLAN in allen Zimmern</li>
-                                <li>und vieles mehr ...</li>
-                            </ul>
+                <ul class="multibox-all clearfix">
+                    <li class="multibox-row">
+                        <div class="box block-6 multibox-col img-wrap">
+                            <div class="box-height">
+                                <div class="block-img">
+                                    <img class="img-responsive" src="images/bkg-section-content-one.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box block-6 multibox-col cont-wrap">
+                            <div class="box-height">
+                                <div class="grey-box">
+                                    <div class="block">
+                                        <h4>UNSERE INKLUSIVLEISTUNGEN</h4>
+                                        <ul>
+                                            <li>Schlemmerfrühstücksbuffet, von 07.30 bis 10.00 Uhr</li>
+                                            <li>Frühstücksservice für Langschläfer bis 11.00 Uhr</li>
+                                            <li>Von 14.00 bis 16.30 Uhr Buffet mit hausgemachten<br />Kuchen, Obst, Salaten, Suppe und pikanten Snacks</li>
+                                            <li>Ihr Lieblingsmenü am Abend: Wählen Sie nach Lust und Laune<br />unter verschiedenen Fünf-Gang-Gourmet-Menüs</li>
+                                            <li>Gluten- und laktosefreie sowie Diätküche auf Anfrage</li>
+                                            <li>1 x wöchentlich Candle-Light-Galadiner  mit Aperitif</li>
+                                            <li>Täglich buntes Salat- und Käsebuffet, Dessert- und<br />Vorspeisenbuffets</li>
+                                            <li>Fachkundiger Weinservice</li>
+                                            <li>WLAN in allen Zimmern</li>
+                                            <li>und vieles mehr ...</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </li>
-                    <li>
-                        <div class="box block-6 img-wrap">dsdsd</div>
-                        <div class="box block-6 cont-wrap">dsdsd</div>
+                    <li class="multibox-row">
+                        <div class="box block-6 multibox-col img-wrap">
+                            <div class="box-height">
+                                <div class="block-img">
+                                    <img class="img-responsive" src="images/bkg-section-content-one.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box block-6 multibox-col cont-wrap">
+                            <div class="box-height">
+                                <div class="grey-box">
+                                    <div class="block">
+                                        <h4>UNSERE INKLUSIVLEISTUNGEN</h4>
+                                        <ul>
+                                            <li>Schlemmerfrühstücksbuffet, von 07.30 bis 10.00 Uhr</li>
+                                            <li>Frühstücksservice für Langschläfer bis 11.00 Uhr</li>
+                                            <li>Von 14.00 bis 16.30 Uhr Buffet mit hausgemachten<br />Kuchen, Obst, Salaten, Suppe und pikanten Snacks</li>
+                                            <li>Ihr Lieblingsmenü am Abend: Wählen Sie nach Lust und Laune<br />unter verschiedenen Fünf-Gang-Gourmet-Menüs</li>
+                                            <li>Gluten- und laktosefreie sowie Diätküche auf Anfrage</li>
+                                            <li>1 x wöchentlich Candle-Light-Galadiner  mit Aperitif</li>
+                                            <li>Täglich buntes Salat- und Käsebuffet, Dessert- und<br />Vorspeisenbuffets</li>
+                                            <li>Fachkundiger Weinservice</li>
+                                            <li>WLAN in allen Zimmern</li>
+                                            <li>und vieles mehr ...</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
