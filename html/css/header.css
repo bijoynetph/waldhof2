@@ -37,6 +37,9 @@
 .logo {
 	margin-bottom: 14px;
 }
+.logo a{
+	display: inline-block;
+}
 .buttons ul{
 	float: right;
 }
@@ -77,8 +80,11 @@ nav ul li a {
 	color: #4a4a49;
 	text-decoration: none;
 	display: block;
-	text-transform: uppercase;
 	padding-bottom: 8px;
+	text-transform: uppercase;
+}
+nav ul li a span {
+	display: none;
 }
 nav ul li a:hover, nav ul li.active a{
 	color: #313131;
@@ -92,16 +98,52 @@ nav ul li:hover .megaMenu{
     padding: 14px 25px;
     position: absolute;
     right: -25px;
-    top: 31px;
+    top: 28px;
     /*display: none;*/
 }
 .megaMenu .leftSec {
     float: left;
     width: 370px;
 }
+.megaMenu .leftSec h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #d60170;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+.megaMenu .leftSec p {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.megaMenu .leftSec p em{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+	margin-left: 20px;
+	text-transform: lowercase;
+	font-style: normal;
+}
+.megaMenu .leftSec p strong {
+	font-size: 23px;
+	text-transform: uppercase;
+	color: #d60170;
+}
+.megaMenu .leftSec h4 {
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+}
 .megaMenu .rightSec {
     float: left;
-    width: 745px;
+    width: 600px;
+}
+.megaMenu .rightSec ul {
+	margin-top: 10px;
 }
 .megaMenu .rightSec ul li {
     border-bottom: 2px dotted #fff;
@@ -109,15 +151,89 @@ nav ul li:hover .megaMenu{
     padding-bottom: 10px;
     width: 260px;
 }
+.megaMenu .rightSec ul li.evenMenu{
+	margin-right: 0;
+}
 .megaMenu .rightSec ul li a {
 	color: #fff;
 	font-size: 18px;
 	padding: 0;
+	text-transform: none;
 }
 .megaMenu .blLogo {
 	float: right;
 }
 .megaMenu .blLogo a {
 	float: left;
+	margin-left: 15px;
+}
+
+
+
+
+@media (max-width : 1024px) {
+    .topSec{
+    	font-size: 19px;
+    }
+    nav ul li {
+    	font-size: 19px;
+    	margin: 0 14px;
+    }
+    .megaMenu .leftSec {
+    	margin-right: 2%;
+    	width: 31%;
+	}
+    .megaMenu .rightSec {
+    	float: left;
+    	width: 67%;
+	}
+	.megaMenu .rightSec ul li {
+		margin-right: 10%;
+		width: 40%;
+	}
+}
+@media (max-width : 800px) {
+	.topSec{
+		font-size: 14px;
+	}
+	.address li{
+		margin-right: 15px;
+	}
+	.buttons ul li a {
+		font-size: 15px;
+	}
+	.logo a{
+		width: 144px;
+	}
+	nav ul li{
+		font-size: 15px;
+		margin: 0 8.5px;
+	}
+	.megaMenu .leftSec .slider {
+		margin-right: 18px;
+	}
+	.megaMenu .leftSec h3 {
+		font-size: 19px;
+	}
+	.megaMenu .leftSec p {
+		font-size: 13px;
+	}
+	.megaMenu .leftSec p em {
+		font-size: 12px;
+	}
+	.megaMenu .leftSec p strong {
+		font-size: 19px;
+	}
+	.megaMenu .leftSec h4{
+		font-size: 13px;
+	}
+	.megaMenu .rightSec ul li a {
+		font-size: 15px;
+	}
+	
+
+}
+@media (max-width : 640px) {
+	
 }
 
