@@ -4,8 +4,8 @@
 
 
 
-.row { margin-right: -15px; margin-left: -15px }
-.col {float:left;padding: 0 15px;}
+.row { margin-right: -25px; margin-left: -25px }
+.col {float:left;padding: 0 25px;}
 .box {float: left;position: relative;}
 
 .block-12 { width: 100% }
