@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	$('.megaMenu .rightSec ul li:odd').addClass('oddMenu');
+	$('.megaMenu .rightSec ul li:odd').addClass('evenMenu');
 });
