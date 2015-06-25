@@ -63,9 +63,6 @@ input, select {
     vertical-align: middle;
 }
 
-body{
-	background-color: blue;
-}
-h1 {
-	color: #333;
-}
+
+.container {width: 1170px; margin:0 auto;}
+.special-container {width: 1640px; margin:0 auto;}
