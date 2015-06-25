@@ -1,8 +1,10 @@
 .topSec{
-	font-family: 'Calibri-Bold';
+	font-family: 'Calibri';
 	background-color: #3f3f42;
 	height: 41px;
 	color: #e0dd00;
+	font-size: 24px;
+	letter-spacing: 1px;
 }
 .topSec a{
 	color: #e0dd00;
@@ -16,7 +18,7 @@
 	float: left;
 	list-style: none;
 	line-height: 40px;
-	margin-right: 20px;
+	margin-right: 35px;
 }
 .address li.phone{
 	background: url(../images/phone.png) no-repeat 0 5px;
@@ -29,3 +31,53 @@
 .address li.last {
 	margin-right: 0;
 }
+.headerBtm {
+	padding-top: 24px;
+}
+.logo {
+	margin-bottom: 14px;
+}
+.buttons ul{
+	float: right;
+}
+.buttons ul li {
+	float: left;
+	list-style: none;
+}
+.buttons ul li a{
+	font-family: 'Calibri-Bold';
+	display: block;
+	background-color: #d60170;
+	color: #e0dd00;
+	text-decoration: none;
+	padding: 6px 13px 4px;
+	text-transform: uppercase;
+	margin-left: 12px;
+}
+nav{
+	font-family: 'Calibri';
+	font-size: 23px;
+}
+nav ul li {
+	font-size: 23px;
+	list-style: none;
+	float: left;
+	margin:0 15px;
+}
+nav ul li.last{
+	margin-right: 0;
+}
+nav ul li a {
+	color: #4a4a49;
+	text-decoration: none;
+	display: block;
+}
+nav ul li a:hover, nav ul li.active a{
+	color: #313131;
+}
+
+
+
+
+
+
