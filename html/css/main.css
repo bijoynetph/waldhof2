@@ -41,3 +41,29 @@
     padding: 15px 150px;
     vertical-align: middle;
 }
+.section-content .cont-wrap ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.section-content .cont-wrap ul li {
+    list-style-type: disc;
+}
+.section-content h4 {
+    margin-bottom: 35px;
+}
+.section-content a {
+    color: #e6007e;
+    font-size: 24px;
+    text-decoration: none;
+}
+.section-content a:hover {
+    color: #ff279d;
+}
+.section-content a:before {
+    content: "»";
+    padding-right: 10px;
+}
+.section-content a.double-arrow:after {
+    content: "«";
+    padding-left: 10px;
+}

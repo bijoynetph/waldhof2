@@ -1,21 +1,16 @@
-
 body { font-family: Avenir; font-size: 20px; line-height:20px; color: #3f3f42; }
-h1 { font-weight:normal; }
-h2 { font-family: Avenir; font-size: 50px; color: #3f3f42; font-weight:normal; }
+h1 { font-weight:normal; letter-spacing:4px; }
+h2 { font-family: Avenir; font-size: 50px; color: #3f3f42; font-weight:normal; letter-spacing:4px; }
 h2.curveyfont { font-family: 'cellos_script_personal_use_Rg'; font-size:82px; letter-spacing:4px; margin-top:50px; }
-h3 { font-family: Avenir; font-size: 32px; color: #3f3f42; font-weight:normal; }
-h4 { font-family: Avenir; font-size: 28px; color: #fff; font-weight:normal; }
-h5 { font-family: Avenir; color: :#fff; font-size: 24px; line-height: 33px; font-weight:normal; }
-h6{}
-p{
+h3 { font-family: Avenir; font-size: 32px; color: #3f3f42; font-weight:normal; letter-spacing:4px; }
+h4 { font-family: Avenir; font-size: 28px; color: #fff; font-weight:normal; letter-spacing:4px; }
+h5 { font-family: Avenir; color: :#fff; font-size: 24px; line-height: 33px; font-weight:normal; letter-spacing:4px; }
+h6 {}
 
-}
-a{
+p { margin-bottom: 35px; }
 
-}
-a:hover{
+a { text-decoration: none; outline: none; }
+a:hover { }
+a:focus { outline: none; }
 
-}
-a:focus{
-	
-}
+.align-center { text-align: center; }
