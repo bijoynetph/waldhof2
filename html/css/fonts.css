@@ -17,3 +17,16 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+    font-family: 'cellos_script_personal_use_Rg';
+    src: url('../fonts/cellosscript_personaluse-webfont.eot');
+    src: url('../fonts/cellosscript_personaluse-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cellosscript_personaluse-webfont.woff2') format('woff2'),
+         url('../fonts/cellosscript_personaluse-webfont.woff') format('woff'),
+         url('../fonts/cellosscript_personaluse-webfont.ttf') format('truetype'),
+         url('../fonts/cellosscript_personaluse-webfont.svg#cellos_script_personal_use_Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
