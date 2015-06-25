@@ -68,3 +68,11 @@
     content: "«";
     padding-left: 10px;
 }
+
+.fixed-navigation { top:213px; width:37px; }
+.fixed-navigation li a { font-size:12px; }
+.fixed-navigation { background: url("../images/fixed-nav-bg.png"); height: auto; position: fixed; right: 0; top: 350px; width: 50px; z-index: 9; }
+.fixed-navigation li { border-bottom: 1px solid #949993; text-align: center; }
+.fixed-navigation li.last { border-bottom: 0 !important; }
+.fixed-navigation li a { color: #fff; display: inline-block; text-decoration: none; vertical-align: middle; padding: 10px; }
+.fixed-navigation li a img { display: block; }
