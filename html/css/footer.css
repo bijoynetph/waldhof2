@@ -1,5 +1,13 @@
 
 /*footer*/
 
-footer {min-height: 536px; background:#3f3f42;}
+footer {min-height: 536px; background:#3f3f42;color: #fff;}
 .footer-top {padding:50px 0;}
+.footer-menu li {font-size: 19px;list-style: none;}
+.footer-menu li a {color: #fff;font-family: 'Calibri-Bold';font-size: 19px;text-decoration: none;}
+
+
+
+
+
+
