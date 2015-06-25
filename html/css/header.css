@@ -99,7 +99,7 @@
     position: absolute;
     right: -25px;
     top: 28px;
-    /*display: none;*/
+    display: none;
 }
 .mainMenu .megaMenu .leftSec {
     float: left;
