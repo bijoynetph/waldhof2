@@ -60,7 +60,8 @@ $(document).ready(function(e) {
 			$(this).next().slideToggle();
 			e.preventDefault();
 		});
-		$('.copyright .col.block-4').insertAfter('.copyright  .col.block-8')
+
+		$('.footer-top .box.left').insertAfter('.footer-top .box.right')
 	};
 
 	//$('.bxslider').bxSlider();

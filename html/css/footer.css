@@ -53,11 +53,19 @@ footer h5 {margin-bottom: 20px;}
 
 @media (max-width : 640px) {
 
-    .footer-menu, .footer-logo, footer h5 {display: none;} 
-    .block-6 {width: 100%;
-}
+    .footer-menu, .footer-logo, footer h5,.waldhof-text {display: none;} 
+    .block-6 {width: 100%;}
+    .complay-logo, .footer-top .text-right.right {text-align: center;}
+    footer p {font-size: 35px;line-height: 48px;}
+    footer .complay-logo .box {margin-bottom: 30px;padding-right: 0;}
+
 
 } 
 
+@media (max-width : 480px) {
+    footer p {font-size: 35px;line-height: 48px;}
+
+
+}
 
 
