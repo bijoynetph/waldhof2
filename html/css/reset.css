@@ -62,7 +62,33 @@ hr {
 input, select {
     vertical-align: middle;
 }
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.special-container {
+    width: 1640px;
+    margin: 0 auto;
+}
+.container:before, .container:after {
+    display: table;
+    content: '';
+}
+.container:after {
+    clear: both;
+}
+.special-container:before, .special-container:after {
+    display: table;
+    content: '';
+}
+.special-container:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: '';
+}
+.clearfix:after {
+    clear: both;
+}
 
-
-.container {width: 1170px; margin:0 auto;}
-.special-container {width: 1640px; margin:0 auto;}
