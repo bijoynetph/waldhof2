@@ -84,7 +84,6 @@ input, select {
 .special-container:after {
     clear: both;
 }
-
 .clearfix:after {
     clear: both;
     content: "";
@@ -92,4 +91,10 @@ input, select {
     position: relative;
     visibility: hidden;
 }
-* { box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
