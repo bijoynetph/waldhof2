@@ -1,0 +1,21 @@
+
+.col-2-col { display:block; width:100%; float:left; margin-bottom: 50px;}
+
+
+
+
+.row { margin-right: -15px; margin-left: -15px }
+.col {float:left;padding: 0 15px;}
+
+.block-12 { width: 100% }
+.block-11 { width: 91.66666667% }
+.block-10 { width: 83.33333333% }
+.block-9 { width: 75% }
+.block-8 { width: 66.66666667% }
+.block-7 { width: 58.33333333% }
+.block-6 { width: 50% }
+.block-5 { width: 41.66666667% }
+.block-4 { width: 33.33333333% }
+.block-3 { width: 25% }
+.block-2 { width: 16.66666667% }
+.block-1 { width: 8.33333333% }
