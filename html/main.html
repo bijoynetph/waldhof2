@@ -11,11 +11,13 @@
         
         <link rel="stylesheet" href="css/main.css">
         
-        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript">
-            jQuery(document).ready(function($){
-                
+            $(document).ready(function() {
+                // Even Odd class for section title
+                $ ('.section-toggle:even').addClass ('even');
+                $ ('.section-toggle:odd').addClass ('odd');
             });
         </script>
     </head>
@@ -43,6 +45,7 @@
                     <h5>HOTEL WALDHOF - VÖLLAN BEI MERAN IN SÜDTIROL!</h5>
                 </div>
             </div>
+            <div class="toggle-control"><span></span></div>
         </div>
         <!-- Toggle Section -->
     </body>
