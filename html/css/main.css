@@ -1,6 +1,7 @@
 .section-toggle.even .section-header { text-align: right; }
 .section-toggle.odd .section-header { text-align: left; }
 .section-header { height: 398px; background-size: cover; background-repeat: no-repeat; padding: 125px 0; }
+.section-header p { margin: 0; font-style: italic; font-size: 24px; }
 .section-title .container { position: relative; }
 .section-title .container:before { content: "\201C"; position: absolute; left: 50px; top: 0; font-size: 50px; }
 .section-title .container:after { content: "\201C"; position: absolute; right: 50px; bottom: -32px; font-size: 50px; }
@@ -9,7 +10,7 @@
 .toggle-control .arrow-dn { background: url(../images/arrow-up.gif) 0 0 no-repeat; width: 32px; height: 15px; display: block; margin: 14px auto 0; -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg); transition: all 2s ease 0s; }
 .toggle-control .arrow-dn.opened { background: url(../images/arrow-down.gif) 0 0 no-repeat; width: 32px; height: 15px; display: block; margin: 14px auto 0; }
 .section-title h2 { text-transform: uppercase; }
-.section-title p { font-size: 24px; }
+.section-title p { font-size: 24px; margin: 0; }
 .section-content li.even .img-wrap { float: left; }
 .section-content li.even .cont-wrap { float: left; }
 .section-content li.odd .img-wrap { float: right; }
@@ -41,3 +42,37 @@
     padding: 15px 150px;
     vertical-align: middle;
 }
+.section-content .cont-wrap ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.section-content .cont-wrap ul li {
+    list-style-type: disc;
+}
+.section-content h4 {
+    margin-bottom: 35px;
+}
+.section-content a {
+    color: #e6007e;
+    font-size: 24px;
+    text-decoration: none;
+}
+.section-content a:hover {
+    color: #ff279d;
+}
+.section-content a:before {
+    content: "»";
+    padding-right: 10px;
+}
+.section-content a.double-arrow:after {
+    content: "«";
+    padding-left: 10px;
+}
+
+.fixed-navigation { top:213px; width:37px; }
+.fixed-navigation li a { font-size:12px; }
+.fixed-navigation { background: url("../images/fixed-nav-bg.png"); height: auto; position: fixed; right: 0; top: 350px; width: 50px; z-index: 9; }
+.fixed-navigation li { border-bottom: 1px solid #949993; text-align: center; list-style: none; }
+.fixed-navigation li.last { border-bottom: 0 !important; }
+.fixed-navigation li a { color: #fff; display: inline-block; text-decoration: none; vertical-align: middle; padding: 10px; }
+.fixed-navigation li a img { display: block; }
