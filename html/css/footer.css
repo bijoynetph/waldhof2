@@ -1,5 +1,44 @@
 
 /*footer*/
 
-footer {min-height: 536px; background:#3f3f42;}
-.footer-top {padding:50px 0;}
+footer {min-height: 536px; background:#3f3f42;color: #fff;}
+.footer-top {padding:50px 0;border-bottom: 2px dotted #fff;}
+.footer-menu {margin-bottom: 100px; margin-top: 43px}
+.footer-menu li {font-size: 19px;list-style: none;margin-bottom: 18px;}
+.footer-menu li a {color: #fff;font-family: 'Calibri-Bold';font-size: 19px;text-decoration: none;}
+
+footer p {font-family: Avenir;font-size: 18px; line-height: 25px;}
+footer p strong {color:#d60170;font-size: 20px;}
+footer h4 {margin-bottom: 25px;}
+.footer-logo {margin-bottom: 50px;}
+
+.footer-block-1 {
+margin: 20px 0;
+}
+.footer-block-1 li {
+    float: left;
+    list-style: outside none none;
+    margin-right: 10px;
+}
+.footer-block-1 li a {
+    display: block;
+    height: 54px;
+    text-indent: -9999em;
+    width: 56px;
+}
+.footer-block-1 li.fb a {
+    background: url("../images/socials-icons.png") no-repeat scroll 0 0;
+}
+.footer-block-1 li.tw a {
+    background: url("../images/socials-icons.png") no-repeat scroll -96px 0;
+}
+.footer-block-1 li.inst a {
+    background: url("../images/socials-icons.png") no-repeat scroll -194px 0;
+}
+.footer-block-1 li.pinter a {
+    background: url("../images/socials-icons.png") no-repeat scroll -293px 0;
+}
+.footer-block-1 li.gplus a {
+    background: url("../images/socials-icons.png") no-repeat scroll -391px 0;
+}
+
