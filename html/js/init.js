@@ -63,7 +63,7 @@ $(document).ready(function(e) {
 		$('.copyright .col.block-4').insertAfter('.copyright  .col.block-8')
 	};
 
-	$('.bxslider').bxSlider();
+	//$('.bxslider').bxSlider();
         
        
     // magnific popup
