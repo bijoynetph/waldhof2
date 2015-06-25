@@ -167,8 +167,13 @@
 	float: left;
 	margin-left: 15px;
 }
-
-
+.mobileNav {
+	display: none;
+	font-family: 'Calibri';
+}
+.mobileIcon{
+	display: none;
+}
 
 
 @media (max-width : 1024px) {
@@ -262,15 +267,75 @@
 		font-family: 'Calibri';
 		margin-left: 0;
 		width: 100%;
+		padding: 11px 13px 9px;
 	}
-	.speialElement {
-    	padding: 0;
+	.headerBtm .container .col {
+		padding: 0;
 	}
 	.buttons {
 		margin-bottom: 10px;
 	}
-	nav {
+	nav.mainMenu {
 		display: none;
+	}
+	.mobileNav{
+		position: absolute;
+		width: 100%;
+	}
+	.mobileNav ul li a span{
+		display: block;
+	}
+	.mobileNav > ul > li {
+		background: url(../images/firstLevel.png) repeat-x 0 0;
+		padding: 0 25px;
+		border-bottom: 2px solid #fff;
+	}
+	.mobileNav > ul > li > a {
+		color: #fff;
+		font-size: 46px;
+		line-height: normal;
+		text-decoration: none;
+		display: inline-block;
+		padding: 28px 0;
+	}
+	.mobileNav > ul > li > a span {
+		font-size: 35px;
+    	line-height: 15px;
+	}
+	.mobileNav ul li .megaMenu {
+		background: url(../images/secondLevel.png);
+		border-bottom: 2px solid #fff;
+	    border-top: 2px solid #fff;
+	    margin: 0 -25px;
+	    padding: 10px 25px;
+	    position: relative;
+	    top: 3px;
+	    display: none;
+	}
+	.mobileNav ul li .megaMenu ul li {
+		border-bottom: 2px solid #fff;
+		padding-left: 20px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	.mobileNav ul li .megaMenu ul li.last{
+		border-bottom: none;
+	}
+	.mobileNav ul li .megaMenu ul li a{
+		font-size: 38px;
+		color: #fff;
+		text-decoration: none;
+		line-height: normal;
+	}
+	.mobileIcon {
+		background: url(../images/responsiveMenu.png) no-repeat 0 0;
+		cursor: pointer;
+		display: block;
+		height: 42px;
+		left: 15px;
+		position: absolute;
+		top: -9px;
+		width: 69px;
 	}
 }
 
