@@ -1,11 +1,3 @@
-.container:before, .container:after{
-	display: table;
-	content: '';
-}
-.container:after{
-	clear: both;
-}
-
 .topSec{
 	background-color: #3f3f42;
 	height: 41px;
