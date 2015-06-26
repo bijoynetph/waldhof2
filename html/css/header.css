@@ -241,6 +241,7 @@
 @media (max-width : 640px) {
 	.language {
     	text-align: right;
+    	font-size: 32px;
 	}
 	.address {
 		display: none;
@@ -260,7 +261,7 @@
 	.buttons ul li {
 		float: none;
 		display: inline-block;
-		width: calc(33% - 2px)
+		width: calc(33% - 3px)
 	}
 	.buttons ul li a {
 		font-size: 120%;
