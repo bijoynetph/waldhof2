@@ -1,7 +1,7 @@
 .section-toggle.even .section-header { text-align: right; }
 .section-toggle.odd .section-header { text-align: left; }
 .section-header { height: 398px; background-repeat: no-repeat; padding: 125px 0; }
-.section-header p { margin: 0; font-style: italic; font-size: 24px; }
+.section-header p { margin: 0; font-style: italic; font-size: 30px; }
 .section-title .container { position: relative; }
 .section-title .container:before { background: url(../images/quote-before.png) 0 0 no-repeat; width: 39px; height: 28px; position: absolute; left: 50px; top: 0; font-size: 50px; }
 .section-title .container:after { background: url(../images/quote-after.png) 0 0 no-repeat; width: 39px; height: 28px; position: absolute; right: 50px; bottom: 0; font-size: 50px; }
