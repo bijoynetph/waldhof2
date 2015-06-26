@@ -13,7 +13,9 @@ $(document).ready(function() {
             $(this).closest('li').children('.megaMenu').slideDown(500);
             return false
         }
-    })
+    });
+    var mobAdd = $('.address').clone().html();
+    $('.logo').after('<div class="mobAddress">'+mobAdd+'</div>');
 });
 
 $(window).resize(function(event) {
