@@ -95,20 +95,20 @@ $(document).ready(function(e) {
 
 
 
-// Even Odd class for section title
-                $ ('.section-toggle:even').addClass ('even');
-                $ ('.section-toggle:odd').addClass ('odd');
-                
-                // Section toggle
-                $('.section-content').hide();
-                $ ('.toggle-control').click(function(){
-                    $('.section-content').slideToggle();
-                    $('.toggle-control span').toggleClass('opened');
-                });
-                
-                // Even Odd class for section content
-                $ ('.section-toggle .section-content li:even').addClass ('even');
-                $ ('.section-toggle .section-content li:odd').addClass ('odd');
+         // Even Odd class for section title
+        $ ('.section-toggle:even').addClass ('even');
+        $ ('.section-toggle:odd').addClass ('odd');
+
+        // Section toggle
+        $('.section-content').hide();
+        $ ('.toggle-control').click(function(){
+            $('.section-content').slideToggle();
+            $('.toggle-control span').toggleClass('opened');
+        });
+
+        // Even Odd class for section content
+        $ ('.section-toggle .section-content .multibox-row:even').addClass ('even');
+        $ ('.section-toggle .section-content .multibox-row:odd').addClass ('odd');
 
 
 
