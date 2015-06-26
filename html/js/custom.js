@@ -4,7 +4,6 @@ function mobMenu(){
 		$('.mobileNav').hide();
 	};
 }
-
 $(document).ready(function() {
 	var mobNav = $('nav.mainMenu').clone().addClass('mobileNav').removeClass('mainMenu');
 	$('nav.mainMenu').after(mobNav);
@@ -23,6 +22,30 @@ $(document).ready(function() {
     });
     var mobAdd = $('.address').clone().html();
     $('.logo').after('<div class="mobAddress">'+mobAdd+'</div>');
+
+    $('.tabsection ul.tabs').each(function() {
+    	$(this).find('li').each(function(index, el) {
+    		$(this).addClass('ba'+index);
+    	});
+    });
+
+	$(function() {
+	    $(".tabsection").each(function() {
+	        var i = $(this),
+	            a = i.find(".tablist"),
+	            t = i.find(".tabcontainer");
+	        a.find("li").removeClass("activeTab"), a.find("li:first").addClass("activeTab"), t.find(".tabBox").fadeOut(), t.find(".tabBox:first").fadeIn(), a.find("a").click(function(i) {
+	            i.preventDefault()
+	        }), a.find("li").click(function() {
+	            if (!$(this).hasClass("activeTab")) {
+	                var i = $(this).index();
+	                a.find("li").removeClass("activeTab"), $(this).addClass("activeTab"), t.find(".tabBox").hide(), t.find(".tabBox:eq(" + i + ")").fadeIn()
+	            }
+	        })
+	    })
+	});
+
+
     mobMenu();
 });
 

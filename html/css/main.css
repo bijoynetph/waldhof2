@@ -328,3 +328,73 @@
 .priceBox > ul > li.last a{
     margin-right: 0;
 }
+
+
+
+
+.pinkBox{
+    background-color: #dd0172;
+    padding-top: 40px
+}
+
+.tabBox {
+    display: none;
+}
+.tabsection ul{
+    text-align: center;
+    margin-bottom: 77px;
+}
+.tabsection ul li{
+    display: inline-block;
+    margin: 0 31px;
+}
+.tabsection ul li a {
+    background: url(../images/tabIcons.png) no-repeat;
+    width: 96px;
+    height: 94px;
+    font-size: 0;
+    display: block;
+}
+.tabsection ul li.ba0 a{
+    background-position: 0px 0;
+}
+.tabsection ul li.ba1 a{
+    background-position: -162px 0;
+}
+.tabsection ul li.ba2 a{
+    background-position: -324px 0;
+}
+.tabsection ul li.ba3 a{
+    background-position: -487px 0;
+}
+.tabsection ul li.ba4 a{
+    background-position: -649px 0;
+}
+.tabsection ul li.ba0 a:hover, .tabsection ul li.ba0.activeTab a{
+    background-position: 0px -95px;
+}
+.tabsection ul li.ba1 a:hover, .tabsection ul li.ba1.activeTab a{
+    background-position: -162px -95px;
+}
+.tabsection ul li.ba2 a:hover, .tabsection ul li.ba2.activeTab a{
+    background-position: -324px -95px;
+}
+.tabsection ul li.ba3 a:hover, .tabsection ul li.ba3.activeTab a{
+    background-position: -487px -95px;
+}
+.tabsection ul li.ba4 a:hover, .tabsection ul li.ba4.activeTab a{
+    background-position: -649px -95px;
+}
+.tabBox h3 {
+    line-height: 40px;
+}
+.tabBox p {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+
+
+
+
