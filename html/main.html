@@ -14,24 +14,7 @@
         <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script src="js/init.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                // Even Odd class for section title
-                $ ('.section-toggle:even').addClass ('even');
-                $ ('.section-toggle:odd').addClass ('odd');
-                
-                // Section toggle
-                $('.section-content').hide();
-                $ ('.toggle-control').click(function(){
-                    $('.section-content').slideToggle();
-                    $('.toggle-control span').toggleClass('opened');
-                });
-                
-                // Even Odd class for section content
-                $ ('.section-toggle .section-content li:even').addClass ('even');
-                $ ('.section-toggle .section-content li:odd').addClass ('odd');
-            });
-        </script>
+        
     </head>
 
     <body>
@@ -52,82 +35,83 @@
         <!-- /Header full width image -->
         
         <!-- Toggle Section -->
-        <div class="section-toggle">
-            <div class="full-container">
+        <div class="full-container">
+            <div class="section-toggle">
                 <div class="section-header" style="background-image: url(images/bkg-section-header.jpg); background-position: left top;">
                     <div class="special-container">
                         <p>Das Hotel</p>
                         <h2 class="curveyfont">Bittet um Blindtext</h2>
                     </div>
                 </div>
-            </div>
-            <div class="section-title">
-                <div class="container">
-                    <h2>HOTEL</h2>
-                    <p>GENIESSEN SIE IHREN 4 STERNE SUPERIOR TRAUMURLAUB BEI UNS IM</p>
-                    <h5>HOTEL WALDHOF - VÖLLAN BEI MERAN IN SÜDTIROL!</h5>
+
+                <div class="section-title">
+                    <div class="container">
+                        <h2>HOTEL</h2>
+                        <p>GENIESSEN SIE IHREN 4 STERNE SUPERIOR TRAUMURLAUB BEI UNS IM</p>
+                        <h5>HOTEL WALDHOF - VÖLLAN BEI MERAN IN SÜDTIROL!</h5>
+                    </div>
+                    <span class="toggle-control">
+                        <span class="arrow-dn"></span>
+                    </span>
                 </div>
-                <span class="toggle-control">
-                    <span class="arrow-dn"></span>
-                </span>
-            </div>
-            <div class="section-content">
-                <ul class="multibox-all clearfix">
-                    <li class="multibox-row">
-                        <div class="box block-6 multibox-col img-wrap">
-                            <div class="box-height">
-                                <div class="block-img">
-                                    <img class="img-responsive" src="images/bkg-section-content-one.jpg" alt="" />
+                <div class="section-content">
+                    <div class="multibox-all clearfix">
+                        <div class="multibox-row">
+                            <div class="box block-6 multibox-col img-wrap">
+                                <div class="box-height">
+                                    <div class="block-img">
+                                        <img class="img-responsive" src="images/bkg-section-content-one.jpg" alt="" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="box block-6 multibox-col cont-wrap">
-                            <div class="box-height">
-                                <div class="grey-box">
-                                    <div class="block">
-                                        <h4>UNSERE INKLUSIVLEISTUNGEN</h4>
-                                        <ul>
-                                            <li>Schlemmerfrühstücksbuffet, von 07.30 bis 10.00 Uhr</li>
-                                            <li>Frühstücksservice für Langschläfer bis 11.00 Uhr</li>
-                                            <li>Von 14.00 bis 16.30 Uhr Buffet mit hausgemachten<br />Kuchen, Obst, Salaten, Suppe und pikanten Snacks</li>
-                                            <li>Ihr Lieblingsmenü am Abend: Wählen Sie nach Lust und Laune<br />unter verschiedenen Fünf-Gang-Gourmet-Menüs</li>
-                                            <li>Gluten- und laktosefreie sowie Diätküche auf Anfrage</li>
-                                            <li>1 x wöchentlich Candle-Light-Galadiner  mit Aperitif</li>
-                                            <li>Täglich buntes Salat- und Käsebuffet, Dessert- und<br />Vorspeisenbuffets</li>
-                                            <li>Fachkundiger Weinservice</li>
-                                            <li>WLAN in allen Zimmern</li>
-                                            <li>und vieles mehr ...</li>
-                                        </ul>
-                                        <p><a href="#">das Hotel entdecken</a></p>
+                            <div class="box block-6 multibox-col cont-wrap">
+                                <div class="box-height">
+                                    <div class="grey-box">
+                                        <div class="block">
+                                            <h4>UNSERE INKLUSIVLEISTUNGEN</h4>
+                                            <ul>
+                                                <li>Schlemmerfrühstücksbuffet, von 07.30 bis 10.00 Uhr</li>
+                                                <li>Frühstücksservice für Langschläfer bis 11.00 Uhr</li>
+                                                <li>Von 14.00 bis 16.30 Uhr Buffet mit hausgemachten<br />Kuchen, Obst, Salaten, Suppe und pikanten Snacks</li>
+                                                <li>Ihr Lieblingsmenü am Abend: Wählen Sie nach Lust und Laune<br />unter verschiedenen Fünf-Gang-Gourmet-Menüs</li>
+                                                <li>Gluten- und laktosefreie sowie Diätküche auf Anfrage</li>
+                                                <li>1 x wöchentlich Candle-Light-Galadiner  mit Aperitif</li>
+                                                <li>Täglich buntes Salat- und Käsebuffet, Dessert- und<br />Vorspeisenbuffets</li>
+                                                <li>Fachkundiger Weinservice</li>
+                                                <li>WLAN in allen Zimmern</li>
+                                                <li>und vieles mehr ...</li>
+                                            </ul>
+                                            <p><a href="#">das Hotel entdecken</a></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </li>
-                    <li class="multibox-row">
-                        <div class="box block-6 multibox-col img-wrap">
-                            <div class="box-height">
-                                <div class="block-img">
-                                    <img class="img-responsive" src="images/bkg-section-content-one.jpg" alt="" />
+                        <div class="multibox-row">
+                            <div class="box block-6 multibox-col img-wrap">
+                                <div class="box-height">
+                                    <div class="block-img">
+                                        <img class="img-responsive" src="images/bkg-section-content-one.jpg" alt="" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="box block-6 multibox-col cont-wrap">
-                            <div class="box-height">
-                                <div class="grey-box">
-                                    <div class="block">
-                                        <h4 class="align-center">URLAUB GENIESSEN</h4>
-                                        <p class="align-center">Unser familiär geführtes 4-Sterne-Superior-Hotel mit moderner Wellness- und Beautylandschaft liegt in der urtypischen Südtiroler Ortschaft Völlan, ganz in der Nähe von Lana sowie der 
-Kurstadt Meran, und ist ein kleines Hideaway in herrlicher Naturlage.</p>
-                                        <p class="align-center"><a class="double-arrow" href="#">das Hotel entdecken</a></p>
+                            <div class="box block-6 multibox-col cont-wrap">
+                                <div class="box-height">
+                                    <div class="grey-box">
+                                        <div class="block">
+                                            <h4 class="align-center">URLAUB GENIESSEN</h4>
+                                            <p class="align-center">Unser familiär geführtes 4-Sterne-Superior-Hotel mit moderner Wellness- und Beautylandschaft liegt in der urtypischen Südtiroler Ortschaft Völlan, ganz in der Nähe von Lana sowie der 
+    Kurstadt Meran, und ist ein kleines Hideaway in herrlicher Naturlage.</p>
+                                            <p class="align-center"><a class="double-arrow" href="#">das Hotel entdecken</a></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
+                <div class="section-banner"><img src="images/first-toggle-banner.jpg" alt="" /></div>
             </div>
-            <div class="section-banner"><img src="images/first-toggle-banner.jpg" alt="" /></div>
         </div>
         <!-- Toggle Section -->
     </body>

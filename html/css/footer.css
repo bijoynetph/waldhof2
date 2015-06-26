@@ -1,7 +1,8 @@
 
 /*footer*/
 
-footer {min-height: 536px; background:#3f3f42;color: #fff;}
+footer {min-height: 536px; color: #fff;}
+.footer-top, .footer-bottom {background:#3f3f42;}
 footer p {font-family: Avenir;font-size: 18px; line-height: 25px;}
 footer p a{text-decoration: none;}
 footer p strong {color:#d60170;font-size: 20px;}
@@ -23,16 +24,19 @@ footer h5 {margin-bottom: 25px;}
 
 
 
+
+
+
 @media (max-width : 1024px) {
 
     .container {width:100%;}
-
+    footer .container {padding:0 20px;}
 }
 
 @media (max-width : 800px) {
 
 footer {min-height: auto;}
-footer .container {padding:0 20px;}
+
 footer .complay-logo .box {padding-right: 25px;}
 footer p {font-size: 14px; line-height: 19px;}
 footer p strong {font-size: 15px;}
@@ -42,11 +46,9 @@ footer h5 {margin-bottom: 20px;}
 .footer-menu li {margin-bottom: 2px;}
 .footer-menu li a {font-size: 14px;}
 .footer-logo {margin-bottom: 35px;}
-.footer-top {margin:35px 0px 20px;}
+.footer-top {padding:35px 0px 20px;}
 .footer-logo img {width: 50%;}
-.footer-block-1 {
-    margin: 0 0 20px;
-}
+
 
 
 }
@@ -55,15 +57,22 @@ footer h5 {margin-bottom: 20px;}
 
     .footer-menu, .footer-logo, footer h5,.waldhof-text {display: none;} 
     .block-6 {width: 100%;}
-    .complay-logo, .footer-top .text-right.right {text-align: center;}
-    footer p {font-size: 35px;line-height: 48px;}
+    .complay-logo {text-align: center;padding-top: 20px;}
+    footer p, footer p strong {font-size: 35px;line-height: 48px;}
     footer .complay-logo .box {margin-bottom: 30px;padding-right: 0;}
+    footer .complay-logo .box:last-child {margin-bottom: 0;}
 
+    .footer-top .text-right.right {text-align: center;border-bottom:2px dotted #fff;padding-bottom: 20px;}
+    footer .container {padding: 0;}
+    .footer-block-1 {text-align: center;}
+    .footer-block-1 ul { display: inline-block;}
+    .footer-block-1 li {margin-right: 8px;}
+    .footer-block-1 li.last{margin-right: 0px;}
 
 } 
 
 @media (max-width : 480px) {
-    footer p {font-size: 35px;line-height: 48px;}
+    footer p, footer p strong {font-size: 20px;line-height: 38px;}
 
 
 }
