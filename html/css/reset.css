@@ -98,7 +98,12 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
 
 
 .text-right {text-align: right;}
