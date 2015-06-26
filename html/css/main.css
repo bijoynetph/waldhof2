@@ -69,10 +69,11 @@
     padding-left: 10px;
 }
 
-.fixed-navigation { top:213px; width:37px; }
-.fixed-navigation li a { font-size:12px; }
-.fixed-navigation { background: url("../images/fixed-nav-bg.png"); height: auto; position: fixed; right: 0; top: 350px; width: 50px; z-index: 9; }
-.fixed-navigation li { border-bottom: 1px solid #949993; text-align: center; list-style: none; }
+.fixed-navigation { top:213px; width:44px; }
+.fixed-navigation { background: url("../images/megaMenuBg.png") repeat 0 0; border: 1px solid #33383e; border-right: 0; height: auto; position: fixed; right: 0; top: 350px; width: 50px; z-index: 9; }
+.fixed-navigation li { text-align: center; list-style: none; }
+.fixed-navigation li.scroll-top a { padding: 0; }
+.fixed-navigation li.scroll-bottom a { padding: 0; }
 .fixed-navigation li.last { border-bottom: 0 !important; }
-.fixed-navigation li a { color: #fff; display: inline-block; text-decoration: none; vertical-align: middle; padding: 10px; }
-.fixed-navigation li a img { display: block; }
+.fixed-navigation li a { font-size:12px; color: #fff; display: block; text-decoration: none; vertical-align: middle; padding: 10px 0; }
+.fixed-navigation li a img { display: block; margin: 0 auto; }
