@@ -174,7 +174,9 @@
 .mobileIcon{
 	display: none;
 }
-
+.mobAddress{
+	display: none;
+}
 
 @media (max-width : 1024px) {
     .topSec{
@@ -235,7 +237,6 @@
 	.mainMenu .megaMenu .rightSec ul li a {
 		font-size: 15px;
 	}
-	
 
 }
 @media (max-width : 640px) {
@@ -248,11 +249,14 @@
 	}
 	.logo {
 	    margin: 0 auto;
-	    width: 225px;
+	    width: 376px;
 	}
 	.logo a {
 		width: 100%;
 		margin-bottom: 10px;
+	}
+	.logo a img{
+		width: auto;
 	}
 	.buttons ul {
 	    float: none;
@@ -318,6 +322,7 @@
 		padding-left: 20px;
 		padding-top: 8px;
 		padding-bottom: 8px;
+		margin-right: -25px;
 	}
 	.mobileNav ul li .megaMenu ul li.last{
 		border-bottom: none;
@@ -337,6 +342,34 @@
 		position: absolute;
 		top: -9px;
 		width: 69px;
+	}
+	.mobAddress {
+		display: block;
+		position: absolute;
+		right: 15px;
+    	top: -8px;
+	}
+	.mobAddress ul li {
+		list-style: none;
+	}
+	.mobAddress ul li a {
+		font-size: 0;
+		display: block;
+	}
+	.mobAddress ul li.phone {
+		position: absolute;
+		right: 9px;
+		top: 63px;
+	}
+	.mobAddress ul li.phone a {
+		background: url(../images/phone_m.png) no-repeat 0 0;
+		height: 63px;
+    	width: 57px;
+	}
+	.mobAddress ul li.mail a {
+		background: url(../images/mail_b.png) no-repeat 0 0;
+		height: 43px;
+    	width: 66px;
 	}
 }
 

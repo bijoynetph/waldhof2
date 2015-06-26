@@ -110,7 +110,18 @@ $(document).ready(function(e) {
         $ ('.section-toggle .section-content .multibox-row:even').addClass ('even');
         $ ('.section-toggle .section-content .multibox-row:odd').addClass ('odd');
 
-
+        // Lightbox Gallery
+        $(".hide").click(function(){
+            $(".lightboxgallery").hide();
+        });
+        $(".show").click(function(){
+            $(".lightboxgallery").show();
+        });
+        $('#galleryslides').superslides({
+            play: 5000,
+            //animation_speed: 6000,
+            hashchange: false
+        });
 
 
 	});
