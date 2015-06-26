@@ -67,7 +67,7 @@ $(document).ready(function(e) {
 	//$('.bxslider').bxSlider();
         
        
-    magnific popup
+    //magnific popup
 
 	 jQuery.extend(true, jQuery.magnificPopup.defaults, {  
 	     iframe: {
