@@ -124,6 +124,48 @@ $(document).ready(function(e) {
         });
 
 
+
+ var slideridCount = 0;
+jQuery('.full-container').each(function() {
+   jQuery(this).attr('id', 'Bigslider' + slideridCount);
+   slideridCount++;
+   
+});
+  var sliderid = 1;
+  $('.scroll-top a').attr('href', '#Bigslider0');
+  $('.scroll-bottom a').attr('href', '#Bigslider' + sliderid);
+  $('.scroll-bottom a').click(function(e){
+	if(sliderid < jQuery('.full-container').length - 1)
+    sliderid++;    
+	$('.scroll-bottom a').attr('href', '#Bigslider' + sliderid);
+	//document.URL = $('.scroll-bottom a').attr('href');
+	var target = $(this.hash);
+	if (target.length) {
+		$('html,body').animate({
+		scrollTop: target.offset().top
+		}, 1000); 
+	}
+	e.preventDefault();
+  });
+  $('.scroll-top a').click(function(e){
+    if(sliderid > 0)
+    sliderid--;
+	$('.scroll-top a').attr('href', '#Bigslider' + sliderid);
+	//document.URL = $('.scroll-top a').attr('href');
+	var target = $(this.hash);
+	if (target.length) {
+		$('html,body').animate({
+		scrollTop: target.offset().top
+		}, 1000); 
+	}
+	e.preventDefault();
+  });
+
+
+
+
+
+
 	});
 
 
