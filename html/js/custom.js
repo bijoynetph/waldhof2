@@ -45,12 +45,11 @@ $(document).ready(function() {
 	    })
 	});
 
-	$('.section-content').hide();
 	$('.full-container .toggle-control').click(function(event) {
-		$(this).closest('.full-container').siblings().find('.toggle-control span').removeClass('opened');
-		$(this).closest('.full-container').siblings().find('.section-content').slideUp(600);
-		$(this).find('span').toggleClass('opened');
-		$(this).closest('.section-title').next('.section-content').slideToggle(600);
+		$(this).closest('.full-container').siblings().find('.toggle-control .arrow-dn').removeClass('opened');
+		$(this).closest('.full-container').siblings().find('.section-content').slideUp(400);
+		$(this).find('.arrow-dn').toggleClass('opened');
+		$(this).closest('.section-title').next('.section-content').slideToggle(400);
 	});
 
 	$('.fixed-navigation ul li a').each(function(index, el) {

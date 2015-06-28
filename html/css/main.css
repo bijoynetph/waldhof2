@@ -80,6 +80,9 @@
     font-size: 24px;
     margin: 0;
 }
+.section-content {
+    display: none;
+}
 .section-content .multibox-row.even .img-wrap {
     float: left;
 }

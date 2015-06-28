@@ -83,15 +83,15 @@ $(document).ready(function(e) {
 
 
 	 jQuery('a.popup').magnificPopup({
-	         disableOn: 700,
-	         type: 'iframe',
-	         mainClass: 'mfp-fade',
-	         removalDelay: 160,
-	         preloader: false,
-	         fixedContentPos: true,
-	         titleSrc: 'title'
+         disableOn: 700,
+         type: 'iframe',
+         mainClass: 'mfp-fade',
+         removalDelay: 160,
+         preloader: false,
+         fixedContentPos: true,
+         titleSrc: 'title'
 
-	     });
+     });
 
         // Even Odd class for section title
         $ ('.section-toggle:even').addClass ('even');
