@@ -1,0 +1,24 @@
+.colorTheme{
+	background-color: #d8d2ca;
+	padding: 185px 0 180px;
+}
+.colorTheme .box.block-12 + .box.block-12{
+	margin-top: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 1400px) {
+
+.special-container{width: 100%;}
+
+
+}
