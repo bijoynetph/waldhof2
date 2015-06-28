@@ -5,7 +5,35 @@
 .colorTheme .box.block-12 + .box.block-12{
 	margin-top: 140px;
 }
-
+.fixed-navigation li{
+	position: relative;
+}
+.tooltip {
+    background-color: rgba(84,85,79,0.82);
+    color: #fff;
+    font-size: 17px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+    padding: 0 10px;
+    position: absolute;
+    right: 70px;
+    top: 10px;
+}
+.tooltip:after {
+	border-bottom: 10px solid transparent;
+    border-left: 14px solid rgba(84,85,79,0.82);
+    border-top: 10px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -14px;
+    top: 5px;
+    width: 0;
+}
+.fixed-navigation {
+	top: 25%;
+}
 
 @media (max-width : 800px) {
 	.colorTheme {

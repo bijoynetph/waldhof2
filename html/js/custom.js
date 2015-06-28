@@ -45,6 +45,20 @@ $(document).ready(function() {
 	    })
 	});
 
+	
+	$('.fixed-navigation ul li a').each(function(index, el) {
+		var title = $(this).attr('title');
+		if (title) {
+			$(this).hover(function() {
+				$(this).data('tipText', title).removeAttr('title');
+				$(this).after('<p class="tooltip">'+title+'</p>').fadeIn(400);
+			}, function() {
+				$(this).attr('title', $(this).data('tipText'));
+				$('.tooltip').remove();
+			});
+		};
+			
+	});
 
     mobMenu();
 });
