@@ -7,18 +7,42 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-@media (max-width : 1400px) {
-
-.special-container{width: 100%;}
-
-
+@media (max-width : 800px) {
+	.colorTheme {
+		padding: 90px 0;
+	}
+	.colorTheme .box.block-12 + .box.block-12 {
+		margin-top: 80px;
+	}
+	.priceBox {
+		width: 300px;
+	}
+	.priceBox h4 {
+		font-size: 17px;
+		line-height: 18px;
+	}
+	.priceBox p {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.priceBox .priceBoxContent {
+		padding: 24px 23px 3px;
+	}
+	.priceBox .priceBoxContent ul li {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.priceBox .imageSec .tag {
+	    right: -14px;
+	    top: -12px;
+	    width: 150px;
+	}
+	.priceBox .priceTag {
+		font-size: 13px;
+	}
+	.priceBox .priceTag strong {
+		font-size: 27px;
+	}
 }
+
+
