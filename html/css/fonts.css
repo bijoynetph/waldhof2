@@ -1,19 +1,19 @@
 @font-face {
   font-family: 'Calibri-Bold';
   src: 	url('../fonts/Calibri-Bold.eot?#iefix') format('embedded-opentype'),  
-  		url('../fonts/Calibri-Bold.woff') format('woff'), 
-  		url('../fonts/Calibri-Bold.ttf')  format('truetype'), 
-  		url('../fonts/Calibri-Bold.svg#Calibri-Bold') format('svg');
+    		url('../fonts/Calibri-Bold.woff') format('woff'), 
+    		url('../fonts/Calibri-Bold.ttf')  format('truetype'), 
+    		url('../fonts/Calibri-Bold.svg#Calibri-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Calibri';
-  src: 	url('../fonts/Calibri.eot?#iefix') format('embedded-opentype'),  
-  		url('../fonts/Calibri.woff') format('woff'), 
-  		url('../fonts/Calibri.ttf')  format('truetype'), 
-  		url('../fonts/Calibri.svg#Calibri') format('svg');
+  src:  url('../fonts/Calibri.eot?#iefix') format('embedded-opentype'),  
+  		  url('../fonts/Calibri.woff') format('woff'), 
+  		  url('../fonts/Calibri.ttf')  format('truetype'), 
+  		  url('../fonts/Calibri.svg#Calibri') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,5 +28,96 @@
          url('../fonts/cellosscript_personaluse-webfont.svg#cellos_script_personal_use_Rg') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
+@font-face {
+    font-family: 'AvenirLTStd-Black';
+    src:  url('../fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),  
+          url('../fonts/AvenirLTStd-Black.otf')  format('opentype'),
+          url('../fonts/AvenirLTStd-Black.woff') format('woff'), 
+          url('../fonts/AvenirLTStd-Black.ttf')  format('truetype'), 
+          url('../fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Heavy';
+  src:  url('../fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),  
+        url('../fonts/AvenirLTStd-Heavy.otf')  format('opentype'),
+        url('../fonts/AvenirLTStd-Heavy.woff') format('woff'), 
+        url('../fonts/AvenirLTStd-Heavy.ttf')  format('truetype'), 
+        url('../fonts/AvenirLTStd-Heavy.svg#AvenirLTStd-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Medium';
+  src:  url('../fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),  
+        url('../fonts/AvenirLTStd-Medium.otf')  format('opentype'),
+        url('../fonts/AvenirLTStd-Medium.woff') format('woff'), 
+        url('../fonts/AvenirLTStd-Medium.ttf')  format('truetype'), 
+        url('../fonts/AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Roman';
+  src:  url('../fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),  
+        url('../fonts/AvenirLTStd-Roman.otf')  format('opentype'),
+        url('../fonts/AvenirLTStd-Roman.woff') format('woff'), 
+        url('../fonts/AvenirLTStd-Roman.ttf')  format('truetype'), 
+        url('../fonts/AvenirLTStd-Roman.svg#AvenirLTStd-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Bold';
+  src:  url('../fonts/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),  
+        url('../fonts/AvenirNextLTPro-Bold.otf')  format('opentype'),
+        url('../fonts/AvenirNextLTPro-Bold.woff') format('woff'), 
+        url('../fonts/AvenirNextLTPro-Bold.ttf')  format('truetype'), 
+        url('../fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-MediumCn';
+  src:  url('../fonts/AvenirNextLTPro-MediumCn.eot?#iefix') format('embedded-opentype'),  
+        url('../fonts/AvenirNextLTPro-MediumCn.otf')  format('opentype'),
+        url('../fonts/AvenirNextLTPro-MediumCn.woff') format('woff'), 
+        url('../fonts/AvenirNextLTPro-MediumCn.ttf')  format('truetype'), 
+        url('../fonts/AvenirNextLTPro-MediumCn.svg#AvenirNextLTPro-MediumCn') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Demi';
+  src:  url('../fonts/AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNextLTPro-Demi.otf')  format('opentype'),
+        url('../fonts/AvenirNextLTPro-Demi.woff') format('woff'), 
+        url('../fonts/AvenirNextLTPro-Demi.ttf')  format('truetype'), 
+        url('../fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src:  url('../fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),  
+        url('../fonts/AvenirNextLTPro-Regular.otf')  format('opentype'), 
+        url('../fonts/AvenirNextLTPro-Regular.woff') format('woff'), 
+        url('../fonts/AvenirNextLTPro-Regular.ttf')  format('truetype'), 
+        url('../fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+

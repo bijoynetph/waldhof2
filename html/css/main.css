@@ -155,8 +155,41 @@
     content: "«";
     padding-left: 10px;
 }
-
-
+.section-content h4 {
+    font-family: 'AvenirNextLTPro-MediumCn';
+}
+.section-content ul li {
+    font-family: 'AvenirNextLTPro-Regular';
+}
+.section-content a{
+    font-family: 'AvenirNextLTPro-Demi';
+}
+.section-content p {
+    font-family: 'AvenirNextLTPro-Regular';
+}
+.priceBox h4 strong {
+    font-family: 'AvenirNextLTPro-Bold';
+    font-weight: normal;
+}
+.priceBox > ul > li a {
+    font-family: 'AvenirNextLTPro-Regular';
+}
+.tabBox h3 {
+    font-family: 'AvenirLTStd-Heavy';
+}
+.tabBox p {
+    font-family: 'AvenirLTStd-Roman';
+}
+.section-title h2 {
+    font-family: 'AvenirLTStd-Medium';
+}
+.section-title h5 {
+    font-family: 'AvenirLTStd-Roman';
+}
+.section-title h5 strong {
+    font-family: 'AvenirLTStd-Black';
+    font-weight: normal;
+}
 /* Fixed Icons */
 .fixed-navigation {
     top: 213px;
@@ -329,8 +362,10 @@
     display: block;
     background-color: #3f3f42;
     color: #fff;
-    line-height: 37px;
+    line-height: 42px;
     margin: 0 6px;
+    text-transform: uppercase;
+    height: 37px;
 }
 .priceBox > ul > li.first a{
     margin-left: 0;
