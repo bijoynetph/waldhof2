@@ -60,7 +60,7 @@ $(document).ready(function() {
 				$(this).after('<p class="tooltip">'+title+'</p>').fadeIn(400);
 			}, function() {
 				$(this).attr('title', $(this).data('tipText'));
-				$('.tooltip').remove();
+				// $('.tooltip').remove();
 			});
 		};
 			
