@@ -10,7 +10,7 @@
 .box-special .col {padding: 0 5px;}
 .block-cont {background: #fff;padding: 65px 20px 30px;}
 
-.block-cont h4 {color: #3f3f42; margin-bottom: 24px;}
+.box-special h4, .block-cont h4 {color: #3f3f42; margin-bottom: 24px;}
 .box-special .block-cont .img-block {margin-bottom: 35px;}
 .box-special .block-cont p { line-height: 30px;margin-bottom: 0;}
 
@@ -20,6 +20,18 @@
 .special-toggle .section-title {background-color: #e0dd00;padding: 0;}
 .special-toggle .section-title .toggle-control {background: rgba(0, 0, 0, 0) url("../images/bkg-toggle-control-wh.png") no-repeat scroll 0 0;bottom: 0;}
 .subpage .block-cont .special-container {padding:0;}
+
+
+.col-3-col .img-block {margin-bottom: 50px;position: relative;}
+.col-3-col .img-block .plus {background: url(../images/plus-sign.png);width:71px;height: 73px;display:block;position: absolute;z-index: 9; bottom: 9; left: 50%; margin-left: -35px;bottom: -30px;}
+.col-3-col .cont-block {padding:20px;}
+
+
+
+
+
+
+
 
 
 /*bx slider*/
