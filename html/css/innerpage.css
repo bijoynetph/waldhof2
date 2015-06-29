@@ -12,6 +12,7 @@
 
 .box-special .block-cont h4 {color: #3f3f42; margin-bottom: 24px;}
 .box-special .block-cont .img-block {margin-bottom: 35px;}
+.box-special .block-cont p { line-height: 30px;}
 
 .arrow-pink {background: url(../images/arrow-pink.png);width:30px;height: 16px;display: inline-block; text-indent: -99999em;}
 .arrow-gray {background: url(../images/arrow-gray.png);width:30px;height: 16px;display: inline-block; text-indent: -99999em;}
