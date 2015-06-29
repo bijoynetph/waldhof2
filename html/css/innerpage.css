@@ -1,0 +1,34 @@
+
+.subpage .special-container {width: 960px;padding:100px 0;}
+.subpage .special-container h3 {margin-bottom: 20px;}
+.large-photo-wrapper {margin-bottom: 11px;}
+.box-big {margin-right:11px;}
+.padding-bottom370 {padding-bottom: 370px !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 1400px) {
+
+.special-container{width: 100%;}
+
+
+}

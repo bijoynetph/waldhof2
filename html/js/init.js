@@ -83,28 +83,20 @@ $(document).ready(function(e) {
 
 
 	 jQuery('a.popup').magnificPopup({
-	         disableOn: 700,
-	         type: 'iframe',
-	         mainClass: 'mfp-fade',
-	         removalDelay: 160,
-	         preloader: false,
-	         fixedContentPos: true,
-	         titleSrc: 'title'
+         disableOn: 700,
+         type: 'iframe',
+         mainClass: 'mfp-fade',
+         removalDelay: 160,
+         preloader: false,
+         fixedContentPos: true,
+         titleSrc: 'title'
 
-	     });
+     });
 
-
-
-         // Even Odd class for section title
+        // Even Odd class for section title
         $ ('.section-toggle:even').addClass ('even');
         $ ('.section-toggle:odd').addClass ('odd');
-
-        // Section toggle
-        $('.section-content').hide();
-        $ ('.toggle-control').click(function(){
-            $('.section-content').slideToggle();
-            $('.toggle-control span').toggleClass('opened');
-        });
+        
 
         // Even Odd class for section content
         $ ('.section-toggle .section-content .multibox-row:even').addClass ('even');
@@ -122,6 +114,48 @@ $(document).ready(function(e) {
             //animation_speed: 6000,
             hashchange: false
         });
+
+
+
+ var slideridCount = 0;
+jQuery('.full-container').each(function() {
+   jQuery(this).attr('id', 'Bigslider' + slideridCount);
+   slideridCount++;
+   
+});
+  var sliderid = 1;
+  $('.scroll-top a').attr('href', '#Bigslider0');
+  $('.scroll-bottom a').attr('href', '#Bigslider' + sliderid);
+  $('.scroll-bottom a').click(function(e){
+	if(sliderid < jQuery('.full-container').length - 1)
+    sliderid++;    
+	$('.scroll-bottom a').attr('href', '#Bigslider' + sliderid);
+	//document.URL = $('.scroll-bottom a').attr('href');
+	var target = $(this.hash);
+	if (target.length) {
+		$('html,body').animate({
+		scrollTop: target.offset().top
+		}, 1000); 
+	}
+	e.preventDefault();
+  });
+  $('.scroll-top a').click(function(e){
+    if(sliderid > 0)
+    sliderid--;
+	$('.scroll-top a').attr('href', '#Bigslider' + sliderid);
+	//document.URL = $('.scroll-top a').attr('href');
+	var target = $(this.hash);
+	if (target.length) {
+		$('html,body').animate({
+		scrollTop: target.offset().top
+		}, 1000); 
+	}
+	e.preventDefault();
+  });
+
+
+
+
 
 
 	});

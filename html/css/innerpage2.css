@@ -1,0 +1,76 @@
+.colorTheme{
+	background-color: #d8d2ca;
+	padding: 185px 0 180px;
+}
+.colorTheme .box.block-12 + .box.block-12{
+	margin-top: 140px;
+}
+.fixed-navigation li{
+	position: relative;
+}
+.tooltip {
+    background-color: rgba(84,85,79,0.82);
+    color: #fff;
+    font-size: 17px;
+    height: 30px;
+    line-height: 28px;
+    margin-bottom: 0;
+    padding: 0 10px;
+    position: absolute;
+    right: 70px;
+    top: 10px;
+}
+.tooltip:after {
+	border-bottom: 10px solid transparent;
+    border-left: 14px solid rgba(84,85,79,0.82);
+    border-top: 10px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -14px;
+    top: 5px;
+    width: 0;
+}
+.fixed-navigation {
+	top: 25%;
+}
+
+@media (max-width : 800px) {
+	.colorTheme {
+		padding: 90px 0;
+	}
+	.colorTheme .box.block-12 + .box.block-12 {
+		margin-top: 80px;
+	}
+	.priceBox {
+		width: 300px;
+	}
+	.priceBox h4 {
+		font-size: 17px;
+		line-height: 18px;
+	}
+	.priceBox p {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.priceBox .priceBoxContent {
+		padding: 24px 23px 3px;
+	}
+	.priceBox .priceBoxContent ul li {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.priceBox .imageSec .tag {
+	    right: -14px;
+	    top: -12px;
+	    width: 150px;
+	}
+	.priceBox .priceTag {
+		font-size: 13px;
+	}
+	.priceBox .priceTag strong {
+		font-size: 27px;
+	}
+}
+
+

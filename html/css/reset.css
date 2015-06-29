@@ -105,7 +105,9 @@ img {
     width: 100%;
 }
 
-
+ul li{
+    list-style: none;
+}
 .text-right {text-align: right;}
 .text-left {text-align: left;}
 .text-center {text-align: center;}
