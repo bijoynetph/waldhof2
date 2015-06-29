@@ -70,6 +70,7 @@ input, select {
     max-width: 1684px;
     margin: 0 auto;
     padding: 0 22px;
+    position: relative;
 }
 .container:before, .container:after {
     display: table;
