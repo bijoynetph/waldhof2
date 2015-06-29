@@ -67,8 +67,9 @@ input, select {
     margin: 0 auto;
 }
 .special-container {
-    width: 1640px;
+    max-width: 1684px;
     margin: 0 auto;
+    padding: 0 22px;
 }
 .container:before, .container:after {
     display: table;
