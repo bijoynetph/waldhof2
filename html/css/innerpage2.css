@@ -9,7 +9,7 @@
 	position: relative;
 }
 .tooltip {
-    background-color: rgba(84,85,79,0.82);
+    background: url(../images/tooltipBg.png);
     color: #fff;
     font-size: 17px;
     height: 30px;
@@ -17,19 +17,17 @@
     margin-bottom: 0;
     padding: 0 10px;
     position: absolute;
-    right: 70px;
+    right: 67px;
     top: 10px;
 }
 .tooltip:after {
-	border-bottom: 10px solid transparent;
-    border-left: 14px solid rgba(84,85,79,0.82);
-    border-top: 10px solid transparent;
+	background: url(../images/tooltipArrow.png) no-repeat 0 0;
     content: "";
-    height: 0;
+    height: 30px;
     position: absolute;
-    right: -14px;
-    top: 5px;
-    width: 0;
+    right: -11px;
+    top: 0px;
+    width: 11px;
 }
 .fixed-navigation {
 	top: 25%;
