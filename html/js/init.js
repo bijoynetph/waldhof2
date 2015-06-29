@@ -14,8 +14,7 @@ $(document).ready(function(e) {
 	});
 	
 
-	var imgHight = $('.box-height .vertical img').height();
-	 $('.multibox-col .box-height').css('height', imgHight);
+	
 
 	
 	if($(window).width() > 640){
@@ -155,15 +154,15 @@ $(document).ready(function(e) {
 	  });
 
 
-$(".col-3-col .img-block").append("<span class='plus'></span>");
+$(".col-3-col .img-block, .col-2-col .img-block").append("<span class='plus'></span>");
 
-
+	
+     
 
 	});
 
 
 $(window).resize(function() {
-	var imgHight = $('.box-height .vertical img').height();
-	 $('.multibox-col .box-height').css('height', imgHight);
+
 
 });

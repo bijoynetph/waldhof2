@@ -50,6 +50,9 @@ $(document).ready(function() {
 		$(this).closest('.full-container').siblings().find('.section-content').slideUp(400);
 		$(this).find('.arrow-dn').toggleClass('opened');
 		$(this).closest('.section-title').next('.section-content').slideToggle(400);
+
+		var imgHight = $('.box-height .block-img img').height();
+		$('.multibox-col .box-height').css('height', imgHight);
 	});
 
 	$('.fixed-navigation ul li a').each(function(index, el) {
@@ -71,4 +74,7 @@ $(document).ready(function() {
 
 $(window).resize(function(event) {
 	mobMenu();
+
+	var imgHight = $('.box-height .block-img img').height();
+	$('.multibox-col .box-height').css('height', imgHight);
 });
