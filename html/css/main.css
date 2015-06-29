@@ -407,4 +407,52 @@
 
 
 
-
+@media (max-width : 800px) {
+    .section-header {
+        background-size: 100% auto;
+        height: 146px;
+        padding: 35px 0;
+    }
+    .section-header p {
+        font-size: 14px;
+    }
+    h2.curveyfont{
+        font-size: 37px;
+        margin-top: 10px;
+    }
+    .section-title {
+        padding: 8px 20px;
+    }
+    .section-title h2 {
+        font-size: 24px;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    .section-title h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .section-title h5 strong {
+        line-height: 19px;
+    }
+    .section-title .toggle-control {
+        width: 55px;
+        background-size: 100%;
+    }
+    .toggle-control .arrow-dn {
+        width: 25px;
+        background-size: 100%;
+        margin: 5px auto 0;
+    }
+    .section-title .container::before {
+        background-size: 100%;
+        width: 27px;
+        height: 24px;
+        top: 10px;
+    }
+    .section-title .container::after {
+        background-size: 100%;
+        width: 27px;
+        height: 24px;
+    }
+}
