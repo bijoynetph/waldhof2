@@ -253,7 +253,7 @@
 
 .priceBoxWrap{
     text-align: center;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     padding: 208px 0 180px; 
 }
