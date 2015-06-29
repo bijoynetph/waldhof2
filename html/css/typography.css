@@ -1,10 +1,10 @@
-body { font-family: Avenir; font-size: 20px; line-height:20px; color: #3f3f42; }
+body { /*font-family: Avenir;*/ font-size: 20px; line-height:20px; color: #3f3f42; }
 h1 { font-weight:normal; letter-spacing:1px; }
-h2 { font-family: Avenir; font-size: 50px; color: #3f3f42; font-weight:normal; letter-spacing:1px; }
+h2 { /*font-family: Avenir;*/ font-size: 50px; color: #3f3f42; font-weight:normal; letter-spacing:1px; }
 h2.curveyfont { font-family: 'cellos_script_personal_use_Rg'; font-size:82px; letter-spacing:4px; margin-top:50px; }
-h3 { font-family: Avenir; font-size: 32px; color: #3f3f42; font-weight:normal; letter-spacing:1px; }
-h4 { font-family: Avenir; font-size: 28px; color: #fff; font-weight:normal; letter-spacing:1px; }
-h5 { font-family: Avenir; color: :#fff; font-size: 24px; line-height: 33px; font-weight:normal; letter-spacing:1px; }
+h3 { /*font-family: Avenir;*/ font-size: 32px; color: #3f3f42; font-weight:normal; letter-spacing:1px; }
+h4 { /*font-family: Avenir;*/ font-size: 28px; color: #fff; font-weight:normal; letter-spacing:1px; }
+h5 { /*font-family: Avenir;*/ color: :#fff; font-size: 24px; line-height: 33px; font-weight:normal; letter-spacing:1px; }
 h6 {}
 
 p { margin-bottom: 35px; font-size: 20px; line-height: 26px;}
@@ -12,3 +12,61 @@ p { margin-bottom: 35px; font-size: 20px; line-height: 26px;}
 a { text-decoration: none; outline: none; }
 a:hover { }
 a:focus { outline: none; }
+
+
+.section-content h4 {
+    font-family: 'AvenirNextLTPro-MediumCn';
+}
+.section-content ul li {
+    font-family: 'AvenirNextLTPro-Regular';
+}
+.section-content a{
+    font-family: 'AvenirNextLTPro-Demi';
+}
+.section-content p {
+    font-family: 'AvenirNextLTPro-Regular';
+}
+.priceBox h4 strong {
+    font-family: 'AvenirNextLTPro-Bold';
+    font-weight: normal;
+}
+.priceBox > ul > li a {
+    font-family: 'AvenirNextLTPro-Regular';
+}
+.tabBox h3 {
+    font-family: 'AvenirLTStd-Heavy';
+}
+.tabBox p {
+    font-family: 'AvenirLTStd-Roman';
+}
+.section-title h2 {
+    font-family: 'AvenirLTStd-Medium';
+}
+.section-title h5 {
+    font-family: 'AvenirLTStd-Roman';
+}
+.section-title h5 strong {
+    font-family: 'AvenirLTStd-Black';
+    font-weight: normal;
+}
+.backToTop a {
+	font-family: 'Calibri';
+}
+.backToTop a strong {
+	font-weight: normal;
+	font-size: 16px;
+}
+.section-header .special-container > p {
+    font-family: helvetica;
+    font-weight: 300;
+}
+.special-section-header p {
+	font-family: 'AvenirLTStd-Medium';
+}
+.news-gallery .text-cont > p {
+	font-family: 'AvenirLTStd-Medium';
+}
+.news-gallery .text-cont strong {
+	font-family: 'AvenirNextLTPro-Bold';
+	font-weight: normal;
+}
