@@ -26,7 +26,9 @@
 .col-3-col .img-block .plus {background: url(../images/plus-sign.png);width:71px;height: 73px;display:block;position: absolute;z-index: 9; bottom: 9; left: 50%; margin-left: -35px;bottom: -30px;}
 .col-3-col .cont-block {padding:20px;}
 
-
+.col-2-col .img-block {margin-bottom: 50px;position: relative;}
+.col-2-col .img-block .plus {background: url(../images/plus-sign.png);width:71px;height: 73px;display:block;position: absolute;z-index: 9; bottom: 9; left: 50%; margin-left: -35px;bottom: -30px;}
+.col-2-col .cont-block {padding:20px;}
 
 
 
