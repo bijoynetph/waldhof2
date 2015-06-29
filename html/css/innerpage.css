@@ -4,10 +4,17 @@
 .large-photo-wrapper {margin-bottom: 11px;}
 .box-big {margin-right:11px;}
 .padding-bottom370 {padding-bottom: 370px !important;}
+.margin0 {margin:0 !important;}
 
+.box-special .row {margin-left: -5px;margin-right: -5px;}
+.box-special .col {padding: 0 5px;}
+.block-cont {background: #fff;padding: 65px 20px 30px;}
 
+.box-special .block-cont h4 {color: #3f3f42; margin-bottom: 24px;}
+.box-special .block-cont .img-block {margin-bottom: 35px;}
 
-
+.arrow-pink {background: url(../images/arrow-pink.png);width:30px;height: 16px;display: inline-block; text-indent: -99999em;}
+.arrow-gray {background: url(../images/arrow-gray.png);width:30px;height: 16px;display: inline-block; text-indent: -99999em;}
 
 
 
@@ -28,7 +35,7 @@
 
 @media (max-width : 1400px) {
 
-.special-container{width: 100%;}
-
+.special-container, .subpage .special-container, .special-section-header .container{width: 100%;}
+ 
 
 }
