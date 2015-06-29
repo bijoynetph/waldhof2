@@ -10,24 +10,64 @@
 .box-special .col {padding: 0 5px;}
 .block-cont {background: #fff;padding: 65px 20px 30px;}
 
-.box-special .block-cont h4 {color: #3f3f42; margin-bottom: 24px;}
+.block-cont h4 {color: #3f3f42; margin-bottom: 24px;}
 .box-special .block-cont .img-block {margin-bottom: 35px;}
 .box-special .block-cont p { line-height: 30px;margin-bottom: 0;}
 
 .arrow-pink {background: url(../images/arrow-pink.png);width:30px;height: 16px;display: inline-block; text-indent: -99999em;}
 .arrow-gray {background: url(../images/arrow-gray.png);width:30px;height: 16px;display: inline-block; text-indent: -99999em;}
 
-.box-special .section-title {
-    background-color: #e0dd00;
-    padding: 0;}
-.box-special .section-title .toggle-control {
-    background: rgba(0, 0, 0, 0) url("../images/bkg-toggle-control-wh.png") no-repeat scroll 0 0;
-    bottom: 0;
+.special-toggle .section-title {background-color: #e0dd00;padding: 0;}
+.special-toggle .section-title .toggle-control {background: rgba(0, 0, 0, 0) url("../images/bkg-toggle-control-wh.png") no-repeat scroll 0 0;bottom: 0;}
+.subpage .block-cont .special-container {padding:0;}
+
+
+/*bx slider*/
+
+.banner-slider .bx-wrapper {margin: 0;}
+.bx-wrapper .bx-viewport {
+    -moz-box-shadow: 0 0 0px #ccc;
+    -webkit-box-shadow: 0 0 0px #ccc;
+    box-shadow: 0 0 0px #ccc;
+    border:  0px solid #fff;
+    left: 0;
+    background: #fff;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #fff;
+    width: 14px;
+    height: 14px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+.bx-wrapper .bx-prev {
+    left: 0px;
+    background: url(../images/control.png) no-repeat 0 0;
 }
 
+.bx-wrapper .bx-next {
+    right: 0px;
+    background: url(../images/control.png) no-repeat 100% -60px;
+}
 
+.bx-wrapper .bx-prev:hover {
+    background-position: 0 0;
+}
 
-
+.bx-wrapper .bx-next:hover {
+    background-position: 100% -60px;
+}
+.bx-wrapper .bx-controls-direction a {width: 60px;
+    height: 60px;
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {bottom: 14px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+     background: #fff;opacity: 0.6;
+}
 
 
 

@@ -64,7 +64,9 @@ $(document).ready(function(e) {
 		$('.footer-top .box.left').insertAfter('.footer-top .box.right')
 	};
 
-	//$('.bxslider').bxSlider();
+	$('.bxslider').bxSlider({
+		controls: false
+	});
         
        
     //magnific popup
