@@ -23,16 +23,29 @@
 
 
 .col-3-col .img-block {margin-bottom: 50px;position: relative;}
-.col-3-col .img-block .plus {background: url(../images/plus-sign.png);width:71px;height: 73px;display:block;position: absolute;z-index: 9; bottom: 9; left: 50%; margin-left: -35px;bottom: -30px;}
+.col-3-col .img-block .plus-gray {background: url(../images/plus-sign.png);width:71px;height: 73px;display:block;position: absolute;z-index: 9; bottom: 9; left: 50%; margin-left: -35px;bottom: -30px;}
 .col-3-col .cont-block {padding:20px;}
 
 .col-2-col .img-block {margin-bottom: 50px;position: relative;}
-.col-2-col .img-block .plus {background: url(../images/plus-sign.png);width:71px;height: 73px;display:block;position: absolute;z-index: 9; bottom: 9; left: 50%; margin-left: -35px;bottom: -30px;}
+.plus-gray {background: url(../images/plus-sign.png);width:71px;height: 73px;display:block;position: absolute;z-index: 9; bottom: 9; left: 50%; margin-left: -35px;bottom: -30px;}
 .col-2-col .cont-block {padding:20px;}
 
 
+.multibox-all .color-box {color: #fff;display: table;font-family: "AvenirNextLTPro-Demi";font-size: 20px;height: 100%;position: relative;width: 100%;text-align: center;}
+.color-box h4 {margin-bottom: 40px;}
+.color-box p {line-height: 30px;}
+.color-box .plus-gray {z-index: 9; bottom: 9; left: auto; margin-left: 0;bottom: auto;top: 50%; margin-top: -36px; right: -35px;}
+.color-box .plus-pink {background: url(../images/plus-pink-sign.png);width:71px;height: 73px;display:block;position: absolute;z-index: 9; bottom: 9; left: auto; margin-left: 0;bottom: auto;top: 50%; margin-top: -36px; right: -35px;}
 
+.color-box.pink a {color: #fff;font-size: 24px;text-decoration: none;}
+.color-box.pink a:hover {color: #fff;}
+.color-box.pink a:before {content: "»";padding-right: 10px;}
+.color-box.pink a:after {content: "«";padding-left: 10px;}
 
+.color-box.gray a {color:#e6007e;font-size: 24px;text-decoration: none;}
+.color-box.gray a:hover {color: #e6007e;}
+.color-box.gray a:before {content: "»";padding-right: 10px;}
+.color-box.gray a:after {content: "«";padding-left: 10px;}
 
 
 
