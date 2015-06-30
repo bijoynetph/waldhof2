@@ -90,7 +90,7 @@
 	color: #313131;
 }
 .mainMenu ul li:hover .megaMenu{
-	display: block;
+	visibility: visible;
 }
 .mainMenu .megaMenu {
 	background: url(../images/megaMenuBg.png);
@@ -99,7 +99,7 @@
     position: absolute;
     right: -25px;
     top: 28px;
-    display: none;
+    visibility: hidden;
     z-index: 99;
 }
 /*.mainMenu li.first .megaMenu {
