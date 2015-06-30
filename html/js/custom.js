@@ -1,4 +1,3 @@
-document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':5001/livereload.js?snipver=1"></' + 'script>')
 function mobMenu(){
 	var winWidth = $(window).width();
 	if (winWidth > 640) {
