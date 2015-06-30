@@ -231,11 +231,17 @@
 	left: 15px;
 	
 }
+.slider .bx-wrapper .bx-prev:hover{
+	background-position: inherit;
+}
 .slider .bx-wrapper .bx-next {
 	background: url(../images/aliRightA.png) no-repeat 0 0;
 	right: 15px;
 }
 
+.slider .bx-wrapper .bx-next:hover{
+	background-position: inherit;
+}
 @media (max-width : 1024px) {
     .topSec{
     	font-size: 19px;
