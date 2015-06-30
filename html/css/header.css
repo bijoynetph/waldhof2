@@ -209,7 +209,32 @@
 .mobAddress{
 	display: none;
 }
-
+.slider{
+	width: 264px;
+	position: relative;
+}
+.mainMenu .megaMenu .slider ul {
+	margin: 0;
+}
+.slider .bx-wrapper .bx-viewport {
+	background: transparent;
+	position: relative;
+}
+.slider .bx-wrapper .bx-controls-direction a {
+	width: 18px;
+	height: 47px;
+	position: absolute;
+	top: 30%;
+}
+.slider .bx-wrapper .bx-prev {
+	background: url(../images/sliLefta.png) no-repeat 0 0;
+	left: 15px;
+	
+}
+.slider .bx-wrapper .bx-next {
+	background: url(../images/aliRightA.png) no-repeat 0 0;
+	right: 15px;
+}
 
 @media (max-width : 1024px) {
     .topSec{

@@ -19,7 +19,7 @@ $(document).ready(function() {
 			$(this).find('.middleSec').addClass('twoColumnMenu');
 		};
 	});
-	
+
 	$('nav.mainMenu .megaMenu .twoColumnMenu ul li:odd').addClass('evenMenu');
 	$('.logo').before('<span class="mobileIcon"></span>');
 	$(document).on('click', '.mobileIcon', function() {
@@ -81,6 +81,11 @@ $(document).ready(function() {
 	});
 
     mobMenu();
+    $('.sliderWrap').bxSlider({
+    	pager: false,
+    	nextText: "",
+    	prevText: ""
+    });
 });
 
 $(window).resize(function(event) {
