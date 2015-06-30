@@ -58,7 +58,16 @@
 	margin-left: 12px;
 }
 
+.section-header h2 {
+    font-family: "cellos_script_personal_use_Rg";
+    font-size: 82px;
+    letter-spacing: 4px;
+    margin-top: 50px;
+}
 
+div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+    margin-bottom: 0;
+}
 
 .mainMenu{
 	font-family: 'Calibri';
