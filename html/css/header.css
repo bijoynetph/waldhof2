@@ -99,12 +99,12 @@
     position: absolute;
     right: -25px;
     top: 28px;
-    display: block;
+    display: none;
     z-index: 99;
 }
-.mainMenu li.first .megaMenu {
+/*.mainMenu li.first .megaMenu {
 	display: none;
-}
+}*/
 .mainMenu .megaMenu .leftSec {
     float: left;
     width: 370px;
