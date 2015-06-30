@@ -32,6 +32,7 @@ a:focus { outline: none; }
 }
 .priceBox > ul > li a {
     font-family: 'AvenirNextLTPro-Regular';
+    font-size: 13px;
 }
 .tabBox h3 {
     font-family: 'AvenirLTStd-Heavy';
