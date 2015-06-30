@@ -27,11 +27,18 @@ footer h5 {margin-bottom: 25px;}
 .weisse-icon {display: inline-block;}
 .weisse li {float: left;list-style: outside none none;margin-right: 10px;}
 .weisse li a {display: block;height: 92px;text-indent: -9999em;width: 93px;}
-.weisse li.icn-1 a {background: url("../images/weisse-icons.png") no-repeat scroll 0 0;}
+
+.weisse li.icn-1 a {background: url("../images/weisse-icons1.png") no-repeat;}
+.weisse li.icn-2 a {background: url("../images/weisse-icons2.png") no-repeat;}
+.weisse li.icn-3 a {background: url("../images/weisse-icons3.png") no-repeat;}
+.weisse li.icn-4 a {background: url("../images/weisse-icons4.png") no-repeat;}
+.weisse li.icn-5 a {background: url("../images/weisse-icons5.png") no-repeat;}
+
+/*.weisse li.icn-1 a {background: url("../images/weisse-icons.png") no-repeat scroll 0 0;}
 .weisse li.icn-2 a {background: url("../images/weisse-icons.png") no-repeat scroll -154px 0;}
 .weisse li.icn-3 a {background: url("../images/weisse-icons.png") no-repeat scroll -309px 0;}
 .weisse li.icn-4 a {background: url("../images/weisse-icons.png") no-repeat scroll -463px 0;}
-.weisse li.icn-5 a {background: url("../images/weisse-icons.png") no-repeat scroll -617px 0;}
+.weisse li.icn-5 a {background: url("../images/weisse-icons.png") no-repeat scroll -617px 0;}*/
 
 .special-section-header {background-repeat: no-repeat;background-size: cover;height: 398px;padding: 125px 0;}
 .special-section-header .container {width: 960px;padding: 0 150px;}
@@ -51,6 +58,9 @@ footer h5 {margin-bottom: 25px;}
 
 .container {width:100%;}
 footer .container {padding:0 20px;}
+
+.weisse {padding:20px 0;}
+.weisse li a {height: 44px;width: 44px; background-size: 100% auto !important;}
 
 }
 

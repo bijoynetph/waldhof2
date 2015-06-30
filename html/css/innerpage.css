@@ -7,7 +7,7 @@
 .margin0 {margin:0 !important;}
 
 .multi-box .col {padding: 0 5px;}
-.multi-box .row {smargin-left: -5px;margin-right: -5px;}
+.multi-box .row {margin-left: -5px;margin-right: -5px;}
 .multi-box .box-big {margin-right:0px;}
 
 .box-special .row {margin-left: -5px;margin-right: -5px;}
@@ -118,18 +118,17 @@
 }
 
 @media (max-width : 1024px) {
-	.subpage .special-container {
-	    padding: 50px 0;
-	    width: 85%;
-	}
 
-
+.subpage .special-container {padding: 50px 0 100px;width: 85%;}
+.special-toggle .section-title .toggle-control {padding-top: 12px;width: 85px;}
 
 
 
 
 }
+@media (max-width : 1024px) {
+.newsgrid-container,.news-gallery {display: none;}
 
 
-
+}
 
