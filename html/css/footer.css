@@ -181,6 +181,19 @@ footer .container {padding:0 20px;}
         font-size: 20px;
         line-height: 38px;
     }
+    .special-section-header {
+        background-size: auto 100%;
+    }
+    .special-section-header .container{
+        padding: 0 10px;
+    }
+    .special-section-header .section-title .container{
+        padding: 0 10px;
+    }
+    .special-section-header .section-title .container::before{
+        left: 10px;
+        top: -30px;
+    }
 
 }
 

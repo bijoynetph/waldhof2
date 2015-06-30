@@ -322,7 +322,7 @@ div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
 	}
 	.logo {
 	    margin: 0 auto;
-	    width: 376px;
+	    width: 59%;
 	}
 	.logo a {
 		width: 100%;
@@ -415,7 +415,8 @@ div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
 		left: 15px;
 		position: absolute;
 		top: -9px;
-		width: 69px;
+		width: 14%;
+		background-size: 100% auto;
 	}
 	.mobAddress {
 		display: block;
@@ -445,5 +446,30 @@ div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
 		height: 43px;
     	width: 66px;
 	}
-}
+	.mobAddress ul li a{
+		background-size: 100% auto !important;
+	}
+	.mobAddress ul li.phone{
+		top: 50px;
+	}
+	.mobAddress ul li.phone a{
+		height: 35px;
+    	width: 30px;
+	}
+	.mobAddress ul li.mail a{
+		height: 32px;
+		width: 46px;
+	}
+	
 
+	.fixed-navigation{
+		display: none;
+	}
+
+
+}
+@media(max-width: 480px) {
+	.buttons ul li a{
+		font-size: 77%;
+	}
+}
