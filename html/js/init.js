@@ -154,15 +154,18 @@ $(document).ready(function(e) {
 	  });
 
 
-$(".col-3-col .img-block, .col-2-col .img-block").append("<span class='plus'></span>");
+	$(".col-3-col .img-block, .col-2-col .img-block, .multibox-col .color-box.pink .block").append("<span class='plus-gray'></span>");
+	$(".multibox-col .color-box.gray .block").append("<span class='plus-pink'></span>");
 
 	
-     
+	var multiimgHight = $('.box-height .block-img img').height();
+	$('.multibox-col .box-height').css('height', multiimgHight);     
 
 	});
 
 
 $(window).resize(function() {
-
+	var multiimgHight = $('.box-height .block-img img').height();
+	$('.multibox-col .box-height').css('height', multiimgHight); 
 
 });
