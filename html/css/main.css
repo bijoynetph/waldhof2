@@ -67,7 +67,7 @@
     transition: all 0.5s ease;
 }
 .toggle-control .arrow-dn.opened {
-    background: url(../images/arrow-down.png) 0 0 no-repeat;    
+    background-position: 0 2px;
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(180deg);
@@ -359,41 +359,30 @@
     margin: 0 31px;
 }
 .tabsection ul li a {
-    background: url(../images/tabIcons.png) no-repeat;
     width: 96px;
     height: 94px;
     font-size: 0;
     display: block;
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 .tabsection ul li.ba0 a{
-    background-position: 0px 0;
+    background-image: url(../images/tabIcon01.png);
 }
 .tabsection ul li.ba1 a{
-    background-position: -162px 0;
+    background-image: url(../images/tabIcon02.png);
 }
 .tabsection ul li.ba2 a{
-    background-position: -324px 0;
+    background-image: url(../images/tabIcon03.png);
 }
 .tabsection ul li.ba3 a{
-    background-position: -487px 0;
+    background-image: url(../images/tabIcon04.png);
 }
 .tabsection ul li.ba4 a{
-    background-position: -649px 0;
+    background-image: url(../images/tabIcon05.png);
 }
-.tabsection ul li.ba0 a:hover, .tabsection ul li.ba0.activeTab a{
+.tabsection ul li a:hover, .tabsection ul li.activeTab a{
     background-position: 0px -95px;
-}
-.tabsection ul li.ba1 a:hover, .tabsection ul li.ba1.activeTab a{
-    background-position: -162px -95px;
-}
-.tabsection ul li.ba2 a:hover, .tabsection ul li.ba2.activeTab a{
-    background-position: -324px -95px;
-}
-.tabsection ul li.ba3 a:hover, .tabsection ul li.ba3.activeTab a{
-    background-position: -487px -95px;
-}
-.tabsection ul li.ba4 a:hover, .tabsection ul li.ba4.activeTab a{
-    background-position: -649px -95px;
 }
 .tabBox h3 {
     line-height: 40px;
@@ -454,5 +443,22 @@
         background-size: 100%;
         width: 27px;
         height: 24px;
+    }
+    .tabsection ul {
+        margin-bottom: 40px;
+    }
+    .tabsection ul li {
+        margin: 0 12px;
+    }
+    .tabcontainer {
+        padding: 0 70px 15px;
+    }
+    .tabsection ul li a {
+        height: 75px;
+        width: 76px;
+        background-size: 100% auto;
+    }
+    .tabsection ul li a:hover, .tabsection ul li.activeTab a{
+        background-position: 0px -75px;
     }
 }
