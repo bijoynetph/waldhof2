@@ -159,7 +159,11 @@ $(document).ready(function(e) {
 
 	
 	var multiimgHight = $('.box-height .block-img img').height();
-	$('.multibox-col .box-height').css('height', multiimgHight);     
+	$('.multibox-col .box-height').css('height', multiimgHight);
+
+	var multiboxHight = $('.multi-box .box-small img').height();
+	$('.multi-box .box-big').css({'height': multiboxHight , 'overflow': 'hidden'});
+
 
 	});
 
@@ -167,5 +171,8 @@ $(document).ready(function(e) {
 $(window).resize(function() {
 	var multiimgHight = $('.box-height .block-img img').height();
 	$('.multibox-col .box-height').css('height', multiimgHight); 
+
+	var multiboxHight = $('.multi-box .box-small img').height();
+	$('.multi-box .box-big').css({'height': multiboxHight , 'overflow': 'hidden'});
 
 });

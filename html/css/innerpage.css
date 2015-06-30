@@ -6,6 +6,10 @@
 .padding-bottom370 {padding-bottom: 370px !important;}
 .margin0 {margin:0 !important;}
 
+.multi-box .col {padding: 0 5px;}
+.multi-box .row {smargin-left: -5px;margin-right: -5px;}
+.multi-box .box-big {margin-right:0px;}
+
 .box-special .row {margin-left: -5px;margin-right: -5px;}
 .box-special .col {padding: 0 5px;}
 .block-cont {background: #fff;padding: 65px 20px 30px;}
@@ -112,3 +116,20 @@
  
 
 }
+
+@media (max-width : 1024px) {
+	.subpage .special-container {
+	    padding: 50px 0;
+	    width: 85%;
+	}
+
+
+
+
+
+
+}
+
+
+
+
