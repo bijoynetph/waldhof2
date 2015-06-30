@@ -99,27 +99,30 @@
     position: absolute;
     right: -25px;
     top: 28px;
-    display: none;
+    display: block;
     z-index: 99;
+}
+.mainMenu li.first .megaMenu {
+	display: none;
 }
 .mainMenu .megaMenu .leftSec {
     float: left;
     width: 370px;
 }
-.mainMenu .megaMenu .leftSec h3 {
+.mainMenu .megaMenu h3 {
 	font-size: 24px;
 	text-transform: uppercase;
 	color: #d60170;
 	font-weight: normal;
 	margin-bottom: 5px;
 }
-.mainMenu .megaMenu .leftSec p {
+.mainMenu .megaMenu p {
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #fff;
 	margin-bottom: 10px;
 }
-.mainMenu .megaMenu .leftSec p em{
+.mainMenu .megaMenu p em{
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #fff;
@@ -128,46 +131,74 @@
 	text-transform: lowercase;
 	font-style: normal;
 }
-.mainMenu .megaMenu .leftSec p strong {
+.mainMenu .megaMenu p strong {
 	font-size: 23px;
 	text-transform: uppercase;
 	color: #d60170;
 }
-.mainMenu .megaMenu .leftSec h4 {
+.mainMenu .megaMenu h4 {
 	font-size: 18px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: normal;
 }
 .mainMenu .megaMenu .rightSec {
-    float: left;
-    width: 600px;
+    float: right;
+    width: auto;
 }
-.mainMenu .megaMenu .rightSec ul {
+.mainMenu .megaMenu ul {
 	margin-top: 10px;
 }
-.mainMenu .megaMenu .rightSec ul li {
+.mainMenu .megaMenu ul li {
     border-bottom: 2px dotted #fff;
     margin: 10px 75px 5px 0;
-    padding-bottom: 10px;
-    width: 260px;
+    padding: 0 10px 10px;
+	float: none;
 }
-.mainMenu .megaMenu .rightSec ul li.evenMenu{
+.mainMenu .megaMenu .twoColumnMenu ul li {
+	float: left;
+	width: 100%;
+	max-width: 240px;
+}
+.mainMenu .megaMenu .twoColumnMenu ul li.evenMenu{
 	margin-right: 0;
 }
-.mainMenu .megaMenu .rightSec ul li a {
+.mainMenu .megaMenu ul li a {
 	color: #fff;
 	font-size: 18px;
 	padding: 0;
 	text-transform: none;
 }
+.mainMenu .megaMenu ul li ul {
+	margin: 0;
+}
+.mainMenu .megaMenu ul li ul li {
+	margin-left: 30px;
+	border-bottom: none;
+	padding-bottom: 0;
+	margin: 3px 0;
+}
 .mainMenu .megaMenu .blLogo {
 	float: right;
+	margin-right: 112px;
 }
 .mainMenu .megaMenu .blLogo a {
 	float: left;
 	margin-left: 15px;
 }
+.mainMenu .megaMenu .middleSec {
+	overflow: hidden;
+}
+.megaMenuWrap {
+    padding-bottom: 20px;
+}
+.mainMenu .megaMenu ul li a:hover{
+	color: #eee800;
+}
+.mainMenu .megaMenu ul li.active > a{
+	color: #eee800;
+}
+
 .mobileNav {
 	display: none;
 	font-family: 'Calibri';
@@ -178,6 +209,7 @@
 .mobAddress{
 	display: none;
 }
+
 
 @media (max-width : 1024px) {
     .topSec{

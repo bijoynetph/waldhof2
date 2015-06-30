@@ -10,7 +10,17 @@ $(document).ready(function() {
 	$('nav.mainMenu').after(mobNav);
 	$('.mobileNav .leftSec, .mobileNav .blLogo').remove();
 	$('.mobileNav ul li a span').prepend('» ');
-	$('nav.mainMenu .megaMenu .rightSec ul li:odd').addClass('evenMenu');
+	
+	$('nav.mainMenu ul li').each(function(index, el) {
+		var mm = $(this).find('.megaMenu .rightSec');
+		if (mm.length) {
+
+		} else{
+			$(this).find('.middleSec').addClass('twoColumnMenu');
+		};
+	});
+	
+	$('nav.mainMenu .megaMenu .twoColumnMenu ul li:odd').addClass('evenMenu');
 	$('.logo').before('<span class="mobileIcon"></span>');
 	$(document).on('click', '.mobileIcon', function() {
 		$('nav.mobileNav').slideToggle(500);
